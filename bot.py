@@ -64,12 +64,29 @@ async def gif(*, message: str):
 async def player(*,  message: str):
     """Gets general player info"""
     await bot.say("Getting player info")
-    print(message)
+    #print(message)
     name = message.split(" ")
-    print(name)
-    print('http://api.suredbits.com/nfl/v0/players/{}/{}'.format(name[1], name[0]))
+    
     r = requests.get('http://api.suredbits.com/nfl/v0/players/{}/{}'.format(name[1], name[0]))
-    print(r.text)
+
+    
+    print("Found json")
+    player_json = json.loads(r.text)
+        
+    if isPlayer(player_json):
+        print(type(player_json))
+        print(player_json[0]['weight'])
+        player = player_json[0]
+        print(type(player))
+    else:
+        print("In error")
+        await bot.say("No player found")
+
+def isPlayer(playerFile):
+    if len(playerFile) == 0:
+        return False
+    else:
+        return True
 
     
 bot.run(TOKEN) 

@@ -1,0 +1,3265 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:NFL
+X-WR-CALDESC:Scott Crevier, smc@smcnet.com
+PRODID:-//Scott Crevier//SouthEndZone.com//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:US-Central
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETTO:-0600
+TZOFFSETFROM:-0500
+RRULE:FREQ=YEARLY;WKST=MO;INTERVAL=1;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETTO:-0500
+TZOFFSETFROM:-0600
+RRULE:FREQ=YEARLY;WKST=MO;INTERVAL=1;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2018p00CHIBAL@southendzone.com
+SUMMARY:Chicago at Baltimore
+DESCRIPTION:Hall of Fame Game\n\nWatch: NBC (Natl)\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180802T190000
+DTEND;TZID=US-Central:20180802T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01CARBUF@southendzone.com
+SUMMARY:Carolina at Buffalo
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T180000
+DTEND;TZID=US-Central:20180809T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01CHICIN@southendzone.com
+SUMMARY:Chicago at Cincinnati
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T180000
+DTEND;TZID=US-Central:20180809T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01PGHPHL@southendzone.com
+SUMMARY:Pittsburgh at Philadelphia
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T180000
+DTEND;TZID=US-Central:20180809T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01CLENYG@southendzone.com
+SUMMARY:Cleveland at NY Giants
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T180000
+DTEND;TZID=US-Central:20180809T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01NOSJAX@southendzone.com
+SUMMARY:New Orleans at Jacksonville
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T180000
+DTEND;TZID=US-Central:20180809T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01STLBAL@southendzone.com
+SUMMARY:LA Rams at Baltimore
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T183000
+DTEND;TZID=US-Central:20180809T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01WASNEP@southendzone.com
+SUMMARY:Washington at New England
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T183000
+DTEND;TZID=US-Central:20180809T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01TENGRB@southendzone.com
+SUMMARY:Tennessee at Green Bay
+DESCRIPTION:Bishop's Charities Game\n\n\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T190000
+DTEND;TZID=US-Central:20180809T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01HOUKCC@southendzone.com
+SUMMARY:Houston at Kansas City
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T193000
+DTEND;TZID=US-Central:20180809T223000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01DALSFF@southendzone.com
+SUMMARY:Dallas at San Francisco
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T210000
+DTEND;TZID=US-Central:20180810T000000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01INDSEA@southendzone.com
+SUMMARY:Indianapolis at Seattle
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T210000
+DTEND;TZID=US-Central:20180810T000000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01ATLNYJ@southendzone.com
+SUMMARY:Atlanta at NY Jets
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180810T183000
+DTEND;TZID=US-Central:20180810T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01DETOAK@southendzone.com
+SUMMARY:Detroit at Oakland
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180810T213000
+DTEND;TZID=US-Central:20180811T003000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p01SDCARZ@southendzone.com
+SUMMARY:LA Chargers at Arizona
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180811T210000
+DTEND;TZID=US-Central:20180812T000000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02PHLNEP@southendzone.com
+SUMMARY:Philadelphia at New England
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180816T183000
+DTEND;TZID=US-Central:20180816T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02NYJWAS@southendzone.com
+SUMMARY:NY Jets at Washington
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180816T190000
+DTEND;TZID=US-Central:20180816T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02PGHGRB@southendzone.com
+SUMMARY:Pittsburgh at Green Bay
+DESCRIPTION:Midwest Shrine Game\n\n\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180816T190000
+DTEND;TZID=US-Central:20180816T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02KCCATL@southendzone.com
+SUMMARY:Kansas City at Atlanta
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180817T180000
+DTEND;TZID=US-Central:20180817T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02NYGDET@southendzone.com
+SUMMARY:NY Giants at Detroit
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180817T180000
+DTEND;TZID=US-Central:20180817T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02BUFCLE@southendzone.com
+SUMMARY:Buffalo at Cleveland
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180817T183000
+DTEND;TZID=US-Central:20180817T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02MIACAR@southendzone.com
+SUMMARY:Miami at Carolina
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180817T183000
+DTEND;TZID=US-Central:20180817T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02ARZNOS@southendzone.com
+SUMMARY:Arizona at New Orleans
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180817T190000
+DTEND;TZID=US-Central:20180817T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02JAXMIN@southendzone.com
+SUMMARY:Jacksonville at Minnesota
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180818T120000
+DTEND;TZID=US-Central:20180818T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02OAKSTL@southendzone.com
+SUMMARY:Oakland at LA Rams
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180818T150000
+DTEND;TZID=US-Central:20180818T180000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02CINDAL@southendzone.com
+SUMMARY:Cincinnati at Dallas
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180818T180000
+DTEND;TZID=US-Central:20180818T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02TBBTEN@southendzone.com
+SUMMARY:Tampa Bay at Tennessee
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180818T180000
+DTEND;TZID=US-Central:20180818T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02SFFHOU@southendzone.com
+SUMMARY:San Francisco at Houston
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180818T190000
+DTEND;TZID=US-Central:20180818T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02CHIDEN@southendzone.com
+SUMMARY:Chicago at Denver
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180818T200500
+DTEND;TZID=US-Central:20180818T230500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02SEASDC@southendzone.com
+SUMMARY:Seattle at LA Chargers
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180818T210000
+DTEND;TZID=US-Central:20180819T000000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02BALIND@southendzone.com
+SUMMARY:Baltimore at Indianapolis
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180820T190000
+DTEND;TZID=US-Central:20180820T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03PHLCLE@southendzone.com
+SUMMARY:Philadelphia at Cleveland
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180823T210000
+DTEND;TZID=US-Central:20180824T000000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03NYGNYJ@southendzone.com
+SUMMARY:NY Giants at NY Jets
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180824T183000
+DTEND;TZID=US-Central:20180824T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03DENWAS@southendzone.com
+SUMMARY:Denver at Washington
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180824T183000
+DTEND;TZID=US-Central:20180824T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03NEPCAR@southendzone.com
+SUMMARY:New England at Carolina
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180824T183000
+DTEND;TZID=US-Central:20180824T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03SEAMIN@southendzone.com
+SUMMARY:Seattle at Minnesota
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180824T190000
+DTEND;TZID=US-Central:20180824T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03DETTBB@southendzone.com
+SUMMARY:Detroit at Tampa Bay
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180824T190000
+DTEND;TZID=US-Central:20180824T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03GRBOAK@southendzone.com
+SUMMARY:Green Bay at Oakland
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180824T213000
+DTEND;TZID=US-Central:20180825T003000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03KCCCHI@southendzone.com
+SUMMARY:Kansas City at Chicago
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180825T120000
+DTEND;TZID=US-Central:20180825T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03HOUSTL@southendzone.com
+SUMMARY:Houston at LA Rams
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180825T150000
+DTEND;TZID=US-Central:20180825T180000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03TENPGH@southendzone.com
+SUMMARY:Tennessee at Pittsburgh
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180825T150000
+DTEND;TZID=US-Central:20180825T180000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03SFFIND@southendzone.com
+SUMMARY:San Francisco at Indianapolis
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180825T153000
+DTEND;TZID=US-Central:20180825T183000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03BALMIA@southendzone.com
+SUMMARY:Baltimore at Miami
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180825T180000
+DTEND;TZID=US-Central:20180825T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03ATLJAX@southendzone.com
+SUMMARY:Atlanta at Jacksonville
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180825T180000
+DTEND;TZID=US-Central:20180825T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03NOSSDC@southendzone.com
+SUMMARY:New Orleans at LA Chargers
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180825T190000
+DTEND;TZID=US-Central:20180825T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03CINBUF@southendzone.com
+SUMMARY:Cincinnati at Buffalo
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180826T150000
+DTEND;TZID=US-Central:20180826T180000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03ARZDAL@southendzone.com
+SUMMARY:Arizona at Dallas
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180826T190000
+DTEND;TZID=US-Central:20180826T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04MIAATL@southendzone.com
+SUMMARY:Miami at Atlanta
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T180000
+DTEND;TZID=US-Central:20180830T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04NYJPHL@southendzone.com
+SUMMARY:NY Jets at Philadelphia
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T180000
+DTEND;TZID=US-Central:20180830T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04NEPNYG@southendzone.com
+SUMMARY:New England at NY Giants
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T180000
+DTEND;TZID=US-Central:20180830T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04INDCIN@southendzone.com
+SUMMARY:Indianapolis at Cincinnati
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T180000
+DTEND;TZID=US-Central:20180830T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04CLEDET@southendzone.com
+SUMMARY:Cleveland at Detroit
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T180000
+DTEND;TZID=US-Central:20180830T210000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04CARPGH@southendzone.com
+SUMMARY:Carolina at Pittsburgh
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T183000
+DTEND;TZID=US-Central:20180830T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04JAXTBB@southendzone.com
+SUMMARY:Jacksonville at Tampa Bay
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T183000
+DTEND;TZID=US-Central:20180830T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04WASBAL@southendzone.com
+SUMMARY:Washington at Baltimore
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T183000
+DTEND;TZID=US-Central:20180830T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04DALHOU@southendzone.com
+SUMMARY:Dallas at Houston
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T190000
+DTEND;TZID=US-Central:20180830T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04STLNOS@southendzone.com
+SUMMARY:LA Rams at New Orleans
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T190000
+DTEND;TZID=US-Central:20180830T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04BUFCHI@southendzone.com
+SUMMARY:Buffalo at Chicago
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T190000
+DTEND;TZID=US-Central:20180830T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04MINTEN@southendzone.com
+SUMMARY:Minnesota at Tennessee
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T190000
+DTEND;TZID=US-Central:20180830T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04GRBKCC@southendzone.com
+SUMMARY:Green Bay at Kansas City
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T193000
+DTEND;TZID=US-Central:20180830T223000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04OAKSEA@southendzone.com
+SUMMARY:Oakland at Seattle
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T210000
+DTEND;TZID=US-Central:20180831T000000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04SDCSFF@southendzone.com
+SUMMARY:LA Chargers at San Francisco
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T210000
+DTEND;TZID=US-Central:20180831T000000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04DENARZ@southendzone.com
+SUMMARY:Denver at Arizona
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T210000
+DTEND;TZID=US-Central:20180831T000000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01ATLPHL@southendzone.com
+SUMMARY:Atlanta at Philadelphia
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180906T192000
+DTEND;TZID=US-Central:20180906T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01BUFBAL@southendzone.com
+SUMMARY:Buffalo at Baltimore
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T120000
+DTEND;TZID=US-Central:20180909T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01PGHCLE@southendzone.com
+SUMMARY:Pittsburgh at Cleveland
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T120000
+DTEND;TZID=US-Central:20180909T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01CININD@southendzone.com
+SUMMARY:Cincinnati at Indianapolis
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T120000
+DTEND;TZID=US-Central:20180909T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01TENMIA@southendzone.com
+SUMMARY:Tennessee at Miami
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T120000
+DTEND;TZID=US-Central:20180909T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01SFFMIN@southendzone.com
+SUMMARY:San Francisco at Minnesota
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T120000
+DTEND;TZID=US-Central:20180909T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01HOUNEP@southendzone.com
+SUMMARY:Houston at New England
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T120000
+DTEND;TZID=US-Central:20180909T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01TBBNOS@southendzone.com
+SUMMARY:Tampa Bay at New Orleans
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T120000
+DTEND;TZID=US-Central:20180909T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01JAXNYG@southendzone.com
+SUMMARY:Jacksonville at NY Giants
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T120000
+DTEND;TZID=US-Central:20180909T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01WASARZ@southendzone.com
+SUMMARY:Washington at Arizona
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T150500
+DTEND;TZID=US-Central:20180909T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01SEADEN@southendzone.com
+SUMMARY:Seattle at Denver
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T150500
+DTEND;TZID=US-Central:20180909T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01KCCSDC@southendzone.com
+SUMMARY:Kansas City at LA Chargers
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T150500
+DTEND;TZID=US-Central:20180909T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01DALCAR@southendzone.com
+SUMMARY:Dallas at Carolina
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T152500
+DTEND;TZID=US-Central:20180909T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01CHIGRB@southendzone.com
+SUMMARY:Chicago at Green Bay
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180909T192000
+DTEND;TZID=US-Central:20180909T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01NYJDET@southendzone.com
+SUMMARY:NY Jets at Detroit
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180910T181000
+DTEND;TZID=US-Central:20180910T211000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01STLOAK@southendzone.com
+SUMMARY:LA Rams at Oakland
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180910T212000
+DTEND;TZID=US-Central:20180911T002000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02BALCIN@southendzone.com
+SUMMARY:Baltimore at Cincinnati
+DESCRIPTION:Watch: NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180913T192000
+DTEND;TZID=US-Central:20180913T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02CARATL@southendzone.com
+SUMMARY:Carolina at Atlanta
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T120000
+DTEND;TZID=US-Central:20180916T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02SDCBUF@southendzone.com
+SUMMARY:LA Chargers at Buffalo
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T120000
+DTEND;TZID=US-Central:20180916T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02MINGRB@southendzone.com
+SUMMARY:Minnesota at Green Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T120000
+DTEND;TZID=US-Central:20180916T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02CLENOS@southendzone.com
+SUMMARY:Cleveland at New Orleans
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T120000
+DTEND;TZID=US-Central:20180916T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02MIANYJ@southendzone.com
+SUMMARY:Miami at NY Jets
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T120000
+DTEND;TZID=US-Central:20180916T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02KCCPGH@southendzone.com
+SUMMARY:Kansas City at Pittsburgh
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T120000
+DTEND;TZID=US-Central:20180916T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02PHLTBB@southendzone.com
+SUMMARY:Philadelphia at Tampa Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T120000
+DTEND;TZID=US-Central:20180916T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02HOUTEN@southendzone.com
+SUMMARY:Houston at Tennessee
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T120000
+DTEND;TZID=US-Central:20180916T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02INDWAS@southendzone.com
+SUMMARY:Indianapolis at Washington
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T120000
+DTEND;TZID=US-Central:20180916T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02OAKDEN@southendzone.com
+SUMMARY:Oakland at Denver
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T150500
+DTEND;TZID=US-Central:20180916T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02DETSFF@southendzone.com
+SUMMARY:Detroit at San Francisco
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T150500
+DTEND;TZID=US-Central:20180916T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02ARZSTL@southendzone.com
+SUMMARY:Arizona at LA Rams
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T150500
+DTEND;TZID=US-Central:20180916T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02NEPJAX@southendzone.com
+SUMMARY:New England at Jacksonville
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T152500
+DTEND;TZID=US-Central:20180916T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02NYGDAL@southendzone.com
+SUMMARY:NY Giants at Dallas
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T192000
+DTEND;TZID=US-Central:20180916T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02SEACHI@southendzone.com
+SUMMARY:Seattle at Chicago
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180917T191500
+DTEND;TZID=US-Central:20180917T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03NYJCLE@southendzone.com
+SUMMARY:NY Jets at Cleveland
+DESCRIPTION:Watch: NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180920T192000
+DTEND;TZID=US-Central:20180920T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03NOSATL@southendzone.com
+SUMMARY:New Orleans at Atlanta
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T120000
+DTEND;TZID=US-Central:20180923T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03DENBAL@southendzone.com
+SUMMARY:Denver at Baltimore
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T120000
+DTEND;TZID=US-Central:20180923T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03CINCAR@southendzone.com
+SUMMARY:Cincinnati at Carolina
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T120000
+DTEND;TZID=US-Central:20180923T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03NYGHOU@southendzone.com
+SUMMARY:NY Giants at Houston
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T120000
+DTEND;TZID=US-Central:20180923T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03TENJAX@southendzone.com
+SUMMARY:Tennessee at Jacksonville
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T120000
+DTEND;TZID=US-Central:20180923T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03SFFKCC@southendzone.com
+SUMMARY:San Francisco at Kansas City
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T120000
+DTEND;TZID=US-Central:20180923T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03OAKMIA@southendzone.com
+SUMMARY:Oakland at Miami
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T120000
+DTEND;TZID=US-Central:20180923T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03BUFMIN@southendzone.com
+SUMMARY:Buffalo at Minnesota
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T120000
+DTEND;TZID=US-Central:20180923T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03INDPHL@southendzone.com
+SUMMARY:Indianapolis at Philadelphia
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T120000
+DTEND;TZID=US-Central:20180923T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03GRBWAS@southendzone.com
+SUMMARY:Green Bay at Washington
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T120000
+DTEND;TZID=US-Central:20180923T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03SDCSTL@southendzone.com
+SUMMARY:LA Chargers at LA Rams
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T150500
+DTEND;TZID=US-Central:20180923T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03CHIARZ@southendzone.com
+SUMMARY:Chicago at Arizona
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T152500
+DTEND;TZID=US-Central:20180923T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03DALSEA@southendzone.com
+SUMMARY:Dallas at Seattle
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T152500
+DTEND;TZID=US-Central:20180923T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03NEPDET@southendzone.com
+SUMMARY:New England at Detroit
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T192000
+DTEND;TZID=US-Central:20180923T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03PGHTBB@southendzone.com
+SUMMARY:Pittsburgh at Tampa Bay
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180924T191500
+DTEND;TZID=US-Central:20180924T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04MINSTL@southendzone.com
+SUMMARY:Minnesota at LA Rams
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180927T192000
+DTEND;TZID=US-Central:20180927T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04CINATL@southendzone.com
+SUMMARY:Cincinnati at Atlanta
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T120000
+DTEND;TZID=US-Central:20180930T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04TBBCHI@southendzone.com
+SUMMARY:Tampa Bay at Chicago
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T120000
+DTEND;TZID=US-Central:20180930T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04DETDAL@southendzone.com
+SUMMARY:Detroit at Dallas
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T120000
+DTEND;TZID=US-Central:20180930T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04BUFGRB@southendzone.com
+SUMMARY:Buffalo at Green Bay
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T120000
+DTEND;TZID=US-Central:20180930T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04HOUIND@southendzone.com
+SUMMARY:Houston at Indianapolis
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T120000
+DTEND;TZID=US-Central:20180930T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04NYJJAX@southendzone.com
+SUMMARY:NY Jets at Jacksonville
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T120000
+DTEND;TZID=US-Central:20180930T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04MIANEP@southendzone.com
+SUMMARY:Miami at New England
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T120000
+DTEND;TZID=US-Central:20180930T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04PHLTEN@southendzone.com
+SUMMARY:Philadelphia at Tennessee
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T120000
+DTEND;TZID=US-Central:20180930T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04SEAARZ@southendzone.com
+SUMMARY:Seattle at Arizona
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T150500
+DTEND;TZID=US-Central:20180930T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04CLEOAK@southendzone.com
+SUMMARY:Cleveland at Oakland
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T150500
+DTEND;TZID=US-Central:20180930T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04SFFSDC@southendzone.com
+SUMMARY:San Francisco at LA Chargers
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T150500
+DTEND;TZID=US-Central:20180930T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04NOSNYG@southendzone.com
+SUMMARY:New Orleans at NY Giants
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T152500
+DTEND;TZID=US-Central:20180930T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04BALPGH@southendzone.com
+SUMMARY:Baltimore at Pittsburgh
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180930T192000
+DTEND;TZID=US-Central:20180930T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04KCCDEN@southendzone.com
+SUMMARY:Kansas City at Denver
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181001T191500
+DTEND;TZID=US-Central:20181001T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05INDNEP@southendzone.com
+SUMMARY:Indianapolis at New England
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181004T192000
+DTEND;TZID=US-Central:20181004T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05TENBUF@southendzone.com
+SUMMARY:Tennessee at Buffalo
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T120000
+DTEND;TZID=US-Central:20181007T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05NYGCAR@southendzone.com
+SUMMARY:NY Giants at Carolina
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T120000
+DTEND;TZID=US-Central:20181007T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05MIACIN@southendzone.com
+SUMMARY:Miami at Cincinnati
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T120000
+DTEND;TZID=US-Central:20181007T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05BALCLE@southendzone.com
+SUMMARY:Baltimore at Cleveland
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T120000
+DTEND;TZID=US-Central:20181007T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05GRBDET@southendzone.com
+SUMMARY:Green Bay at Detroit
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T120000
+DTEND;TZID=US-Central:20181007T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05JAXKCC@southendzone.com
+SUMMARY:Jacksonville at Kansas City
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T120000
+DTEND;TZID=US-Central:20181007T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05DENNYJ@southendzone.com
+SUMMARY:Denver at NY Jets
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T120000
+DTEND;TZID=US-Central:20181007T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05ATLPGH@southendzone.com
+SUMMARY:Atlanta at Pittsburgh
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T120000
+DTEND;TZID=US-Central:20181007T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05OAKSDC@southendzone.com
+SUMMARY:Oakland at LA Chargers
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T150500
+DTEND;TZID=US-Central:20181007T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05STLSEA@southendzone.com
+SUMMARY:LA Rams at Seattle
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T150500
+DTEND;TZID=US-Central:20181007T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05ARZSFF@southendzone.com
+SUMMARY:Arizona at San Francisco
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T150500
+DTEND;TZID=US-Central:20181007T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05MINPHL@southendzone.com
+SUMMARY:Minnesota at Philadelphia
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T152500
+DTEND;TZID=US-Central:20181007T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05DALHOU@southendzone.com
+SUMMARY:Dallas at Houston
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T192000
+DTEND;TZID=US-Central:20181007T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05WASNOS@southendzone.com
+SUMMARY:Washington at New Orleans
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181008T191500
+DTEND;TZID=US-Central:20181008T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06PHLNYG@southendzone.com
+SUMMARY:Philadelphia at NY Giants
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181011T192000
+DTEND;TZID=US-Central:20181011T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06TBBATL@southendzone.com
+SUMMARY:Tampa Bay at Atlanta
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T120000
+DTEND;TZID=US-Central:20181014T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06PGHCIN@southendzone.com
+SUMMARY:Pittsburgh at Cincinnati
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T120000
+DTEND;TZID=US-Central:20181014T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06SDCCLE@southendzone.com
+SUMMARY:LA Chargers at Cleveland
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T120000
+DTEND;TZID=US-Central:20181014T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06BUFHOU@southendzone.com
+SUMMARY:Buffalo at Houston
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T120000
+DTEND;TZID=US-Central:20181014T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06CHIMIA@southendzone.com
+SUMMARY:Chicago at Miami
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T120000
+DTEND;TZID=US-Central:20181014T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06ARZMIN@southendzone.com
+SUMMARY:Arizona at Minnesota
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T120000
+DTEND;TZID=US-Central:20181014T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06INDNYJ@southendzone.com
+SUMMARY:Indianapolis at NY Jets
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T120000
+DTEND;TZID=US-Central:20181014T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06SEAOAK@southendzone.com
+SUMMARY:Seattle at Oakland
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T120000
+DTEND;TZID=US-Central:20181014T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06CARWAS@southendzone.com
+SUMMARY:Carolina at Washington
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T120000
+DTEND;TZID=US-Central:20181014T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06STLDEN@southendzone.com
+SUMMARY:LA Rams at Denver
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T150500
+DTEND;TZID=US-Central:20181014T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06JAXDAL@southendzone.com
+SUMMARY:Jacksonville at Dallas
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T152500
+DTEND;TZID=US-Central:20181014T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06BALTEN@southendzone.com
+SUMMARY:Baltimore at Tennessee
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T152500
+DTEND;TZID=US-Central:20181014T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06KCCNEP@southendzone.com
+SUMMARY:Kansas City at New England
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T192000
+DTEND;TZID=US-Central:20181014T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06SFFGRB@southendzone.com
+SUMMARY:San Francisco at Green Bay
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181015T191500
+DTEND;TZID=US-Central:20181015T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07DENARZ@southendzone.com
+SUMMARY:Denver at Arizona
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181018T192000
+DTEND;TZID=US-Central:20181018T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07TENSDC@southendzone.com
+SUMMARY:Tennessee at LA Chargers
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T083000
+DTEND;TZID=US-Central:20181021T113000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07NEPCHI@southendzone.com
+SUMMARY:New England at Chicago
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T120000
+DTEND;TZID=US-Central:20181021T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07BUFIND@southendzone.com
+SUMMARY:Buffalo at Indianapolis
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T120000
+DTEND;TZID=US-Central:20181021T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07HOUJAX@southendzone.com
+SUMMARY:Houston at Jacksonville
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T120000
+DTEND;TZID=US-Central:20181021T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07CINKCC@southendzone.com
+SUMMARY:Cincinnati at Kansas City
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T120000
+DTEND;TZID=US-Central:20181021T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07DETMIA@southendzone.com
+SUMMARY:Detroit at Miami
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T120000
+DTEND;TZID=US-Central:20181021T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07MINNYJ@southendzone.com
+SUMMARY:Minnesota at NY Jets
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T120000
+DTEND;TZID=US-Central:20181021T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07CARPHL@southendzone.com
+SUMMARY:Carolina at Philadelphia
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T120000
+DTEND;TZID=US-Central:20181021T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07CLETBB@southendzone.com
+SUMMARY:Cleveland at Tampa Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T120000
+DTEND;TZID=US-Central:20181021T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07NOSBAL@southendzone.com
+SUMMARY:New Orleans at Baltimore
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T150500
+DTEND;TZID=US-Central:20181021T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07DALWAS@southendzone.com
+SUMMARY:Dallas at Washington
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T152500
+DTEND;TZID=US-Central:20181021T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07STLSFF@southendzone.com
+SUMMARY:LA Rams at San Francisco
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T192000
+DTEND;TZID=US-Central:20181021T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07NYGATL@southendzone.com
+SUMMARY:NY Giants at Atlanta
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181022T191500
+DTEND;TZID=US-Central:20181022T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08MIAHOU@southendzone.com
+SUMMARY:Miami at Houston
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181025T192000
+DTEND;TZID=US-Central:20181025T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08PHLJAX@southendzone.com
+SUMMARY:Philadelphia at Jacksonville
+DESCRIPTION:Watch: NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T083000
+DTEND;TZID=US-Central:20181028T113000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08BALCAR@southendzone.com
+SUMMARY:Baltimore at Carolina
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T120000
+DTEND;TZID=US-Central:20181028T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08NYJCHI@southendzone.com
+SUMMARY:NY Jets at Chicago
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T120000
+DTEND;TZID=US-Central:20181028T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08TBBCIN@southendzone.com
+SUMMARY:Tampa Bay at Cincinnati
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T120000
+DTEND;TZID=US-Central:20181028T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08SEADET@southendzone.com
+SUMMARY:Seattle at Detroit
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T120000
+DTEND;TZID=US-Central:20181028T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08DENKCC@southendzone.com
+SUMMARY:Denver at Kansas City
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T120000
+DTEND;TZID=US-Central:20181028T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08WASNYG@southendzone.com
+SUMMARY:Washington at NY Giants
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T120000
+DTEND;TZID=US-Central:20181028T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08CLEPGH@southendzone.com
+SUMMARY:Cleveland at Pittsburgh
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T120000
+DTEND;TZID=US-Central:20181028T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08SFFARZ@southendzone.com
+SUMMARY:San Francisco at Arizona
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T150500
+DTEND;TZID=US-Central:20181028T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08INDOAK@southendzone.com
+SUMMARY:Indianapolis at Oakland
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T150500
+DTEND;TZID=US-Central:20181028T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08GRBSTL@southendzone.com
+SUMMARY:Green Bay at LA Rams
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T152500
+DTEND;TZID=US-Central:20181028T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08NOSMIN@southendzone.com
+SUMMARY:New Orleans at Minnesota
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T192000
+DTEND;TZID=US-Central:20181028T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08NEPBUF@southendzone.com
+SUMMARY:New England at Buffalo
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181029T191500
+DTEND;TZID=US-Central:20181029T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09OAKSFF@southendzone.com
+SUMMARY:Oakland at San Francisco
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181101T192000
+DTEND;TZID=US-Central:20181101T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09PGHBAL@southendzone.com
+SUMMARY:Pittsburgh at Baltimore
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T120000
+DTEND;TZID=US-Central:20181104T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09CHIBUF@southendzone.com
+SUMMARY:Chicago at Buffalo
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T120000
+DTEND;TZID=US-Central:20181104T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09TBBCAR@southendzone.com
+SUMMARY:Tampa Bay at Carolina
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T120000
+DTEND;TZID=US-Central:20181104T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09KCCCLE@southendzone.com
+SUMMARY:Kansas City at Cleveland
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T120000
+DTEND;TZID=US-Central:20181104T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09NYJMIA@southendzone.com
+SUMMARY:NY Jets at Miami
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T120000
+DTEND;TZID=US-Central:20181104T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09DETMIN@southendzone.com
+SUMMARY:Detroit at Minnesota
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T120000
+DTEND;TZID=US-Central:20181104T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09ATLWAS@southendzone.com
+SUMMARY:Atlanta at Washington
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T120000
+DTEND;TZID=US-Central:20181104T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09HOUDEN@southendzone.com
+SUMMARY:Houston at Denver
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T150500
+DTEND;TZID=US-Central:20181104T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09SDCSEA@southendzone.com
+SUMMARY:LA Chargers at Seattle
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T150500
+DTEND;TZID=US-Central:20181104T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09STLNOS@southendzone.com
+SUMMARY:LA Rams at New Orleans
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T152500
+DTEND;TZID=US-Central:20181104T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09GRBNEP@southendzone.com
+SUMMARY:Green Bay at New England
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T192000
+DTEND;TZID=US-Central:20181104T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09TENDAL@southendzone.com
+SUMMARY:Tennessee at Dallas
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181105T191500
+DTEND;TZID=US-Central:20181105T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10CARPGH@southendzone.com
+SUMMARY:Carolina at Pittsburgh
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181108T192000
+DTEND;TZID=US-Central:20181108T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10DETCHI@southendzone.com
+SUMMARY:Detroit at Chicago
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T120000
+DTEND;TZID=US-Central:20181111T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10NOSCIN@southendzone.com
+SUMMARY:New Orleans at Cincinnati
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T120000
+DTEND;TZID=US-Central:20181111T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10ATLCLE@southendzone.com
+SUMMARY:Atlanta at Cleveland
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T120000
+DTEND;TZID=US-Central:20181111T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10MIAGRB@southendzone.com
+SUMMARY:Miami at Green Bay
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T120000
+DTEND;TZID=US-Central:20181111T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10JAXIND@southendzone.com
+SUMMARY:Jacksonville at Indianapolis
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T120000
+DTEND;TZID=US-Central:20181111T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10ARZKCC@southendzone.com
+SUMMARY:Arizona at Kansas City
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T120000
+DTEND;TZID=US-Central:20181111T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10BUFNYJ@southendzone.com
+SUMMARY:Buffalo at NY Jets
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T120000
+DTEND;TZID=US-Central:20181111T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10WASTBB@southendzone.com
+SUMMARY:Washington at Tampa Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T120000
+DTEND;TZID=US-Central:20181111T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10NEPTEN@southendzone.com
+SUMMARY:New England at Tennessee
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T120000
+DTEND;TZID=US-Central:20181111T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10SDCOAK@southendzone.com
+SUMMARY:LA Chargers at Oakland
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T150500
+DTEND;TZID=US-Central:20181111T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10SEASTL@southendzone.com
+SUMMARY:Seattle at LA Rams
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T152500
+DTEND;TZID=US-Central:20181111T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10DALPHL@southendzone.com
+SUMMARY:Dallas at Philadelphia
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T192000
+DTEND;TZID=US-Central:20181111T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10NYGSFF@southendzone.com
+SUMMARY:NY Giants at San Francisco
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181112T191500
+DTEND;TZID=US-Central:20181112T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11GRBSEA@southendzone.com
+SUMMARY:Green Bay at Seattle
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181115T192000
+DTEND;TZID=US-Central:20181115T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11DALATL@southendzone.com
+SUMMARY:Dallas at Atlanta
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T120000
+DTEND;TZID=US-Central:20181118T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11CINBAL@southendzone.com
+SUMMARY:Cincinnati at Baltimore
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T120000
+DTEND;TZID=US-Central:20181118T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11MINCHI@southendzone.com
+SUMMARY:Minnesota at Chicago
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T120000
+DTEND;TZID=US-Central:20181118T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11CARDET@southendzone.com
+SUMMARY:Carolina at Detroit
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T120000
+DTEND;TZID=US-Central:20181118T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11TENIND@southendzone.com
+SUMMARY:Tennessee at Indianapolis
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T120000
+DTEND;TZID=US-Central:20181118T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11PHLNOS@southendzone.com
+SUMMARY:Philadelphia at New Orleans
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T120000
+DTEND;TZID=US-Central:20181118T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11TBBNYG@southendzone.com
+SUMMARY:Tampa Bay at NY Giants
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T120000
+DTEND;TZID=US-Central:20181118T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11HOUWAS@southendzone.com
+SUMMARY:Houston at Washington
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T120000
+DTEND;TZID=US-Central:20181118T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11OAKARZ@southendzone.com
+SUMMARY:Oakland at Arizona
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T150500
+DTEND;TZID=US-Central:20181118T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11DENSDC@southendzone.com
+SUMMARY:Denver at LA Chargers
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T150500
+DTEND;TZID=US-Central:20181118T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11PGHJAX@southendzone.com
+SUMMARY:Pittsburgh at Jacksonville
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181118T192000
+DTEND;TZID=US-Central:20181118T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11KCCSTL@southendzone.com
+SUMMARY:Kansas City at LA Rams
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181119T191500
+DTEND;TZID=US-Central:20181119T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12CHIDET@southendzone.com
+SUMMARY:Chicago at Detroit
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181122T113000
+DTEND;TZID=US-Central:20181122T143000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12WASDAL@southendzone.com
+SUMMARY:Washington at Dallas
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181122T153000
+DTEND;TZID=US-Central:20181122T183000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12ATLNOS@southendzone.com
+SUMMARY:Atlanta at New Orleans
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181122T192000
+DTEND;TZID=US-Central:20181122T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12OAKBAL@southendzone.com
+SUMMARY:Oakland at Baltimore
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T120000
+DTEND;TZID=US-Central:20181125T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12JAXBUF@southendzone.com
+SUMMARY:Jacksonville at Buffalo
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T120000
+DTEND;TZID=US-Central:20181125T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12SEACAR@southendzone.com
+SUMMARY:Seattle at Carolina
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T120000
+DTEND;TZID=US-Central:20181125T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12CLECIN@southendzone.com
+SUMMARY:Cleveland at Cincinnati
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T120000
+DTEND;TZID=US-Central:20181125T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12MIAIND@southendzone.com
+SUMMARY:Miami at Indianapolis
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T120000
+DTEND;TZID=US-Central:20181125T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12NEPNYJ@southendzone.com
+SUMMARY:New England at NY Jets
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T120000
+DTEND;TZID=US-Central:20181125T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12NYGPHL@southendzone.com
+SUMMARY:NY Giants at Philadelphia
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T120000
+DTEND;TZID=US-Central:20181125T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12SFFTBB@southendzone.com
+SUMMARY:San Francisco at Tampa Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T120000
+DTEND;TZID=US-Central:20181125T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12ARZSDC@southendzone.com
+SUMMARY:Arizona at LA Chargers
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T150500
+DTEND;TZID=US-Central:20181125T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12PGHDEN@southendzone.com
+SUMMARY:Pittsburgh at Denver
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T152500
+DTEND;TZID=US-Central:20181125T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12GRBMIN@southendzone.com
+SUMMARY:Green Bay at Minnesota
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181125T192000
+DTEND;TZID=US-Central:20181125T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w12TENHOU@southendzone.com
+SUMMARY:Tennessee at Houston
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181126T191500
+DTEND;TZID=US-Central:20181126T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13NOSDAL@southendzone.com
+SUMMARY:New Orleans at Dallas
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181129T192000
+DTEND;TZID=US-Central:20181129T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13BALATL@southendzone.com
+SUMMARY:Baltimore at Atlanta
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13DENCIN@southendzone.com
+SUMMARY:Denver at Cincinnati
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13STLDET@southendzone.com
+SUMMARY:LA Rams at Detroit
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13ARZGRB@southendzone.com
+SUMMARY:Arizona at Green Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13CLEHOU@southendzone.com
+SUMMARY:Cleveland at Houston
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13INDJAX@southendzone.com
+SUMMARY:Indianapolis at Jacksonville
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13BUFMIA@southendzone.com
+SUMMARY:Buffalo at Miami
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13CHINYG@southendzone.com
+SUMMARY:Chicago at NY Giants
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13SDCPGH@southendzone.com
+SUMMARY:LA Chargers at Pittsburgh
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13CARTBB@southendzone.com
+SUMMARY:Carolina at Tampa Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13KCCOAK@southendzone.com
+SUMMARY:Kansas City at Oakland
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T150500
+DTEND;TZID=US-Central:20181202T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13NYJTEN@southendzone.com
+SUMMARY:NY Jets at Tennessee
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T150500
+DTEND;TZID=US-Central:20181202T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13MINNEP@southendzone.com
+SUMMARY:Minnesota at New England
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T152500
+DTEND;TZID=US-Central:20181202T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13SFFSEA@southendzone.com
+SUMMARY:San Francisco at Seattle
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T192000
+DTEND;TZID=US-Central:20181202T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13WASPHL@southendzone.com
+SUMMARY:Washington at Philadelphia
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181203T191500
+DTEND;TZID=US-Central:20181203T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14JAXTEN@southendzone.com
+SUMMARY:Jacksonville at Tennessee
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181206T192000
+DTEND;TZID=US-Central:20181206T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14NYJBUF@southendzone.com
+SUMMARY:NY Jets at Buffalo
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T120000
+DTEND;TZID=US-Central:20181209T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14STLCHI@southendzone.com
+SUMMARY:LA Rams at Chicago
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T120000
+DTEND;TZID=US-Central:20181209T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14CARCLE@southendzone.com
+SUMMARY:Carolina at Cleveland
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T120000
+DTEND;TZID=US-Central:20181209T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14ATLGRB@southendzone.com
+SUMMARY:Atlanta at Green Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T120000
+DTEND;TZID=US-Central:20181209T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14INDHOU@southendzone.com
+SUMMARY:Indianapolis at Houston
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T120000
+DTEND;TZID=US-Central:20181209T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14BALKCC@southendzone.com
+SUMMARY:Baltimore at Kansas City
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T120000
+DTEND;TZID=US-Central:20181209T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14NEPMIA@southendzone.com
+SUMMARY:New England at Miami
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T120000
+DTEND;TZID=US-Central:20181209T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14NOSTBB@southendzone.com
+SUMMARY:New Orleans at Tampa Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T120000
+DTEND;TZID=US-Central:20181209T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14NYGWAS@southendzone.com
+SUMMARY:NY Giants at Washington
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T120000
+DTEND;TZID=US-Central:20181209T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14DETARZ@southendzone.com
+SUMMARY:Detroit at Arizona
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T150500
+DTEND;TZID=US-Central:20181209T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14CINSDC@southendzone.com
+SUMMARY:Cincinnati at LA Chargers
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T150500
+DTEND;TZID=US-Central:20181209T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14DENSFF@southendzone.com
+SUMMARY:Denver at San Francisco
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T150500
+DTEND;TZID=US-Central:20181209T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14PHLDAL@southendzone.com
+SUMMARY:Philadelphia at Dallas
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T152500
+DTEND;TZID=US-Central:20181209T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14PGHOAK@southendzone.com
+SUMMARY:Pittsburgh at Oakland
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T192000
+DTEND;TZID=US-Central:20181209T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14MINSEA@southendzone.com
+SUMMARY:Minnesota at Seattle
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181210T191500
+DTEND;TZID=US-Central:20181210T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15SDCKCC@southendzone.com
+SUMMARY:LA Chargers at Kansas City
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181213T192000
+DTEND;TZID=US-Central:20181213T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15CLEDEN@southendzone.com
+SUMMARY:Cleveland at Denver
+DESCRIPTION:Watch: NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181215T153000
+DTEND;TZID=US-Central:20181215T183000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15HOUNYJ@southendzone.com
+SUMMARY:Houston at NY Jets
+DESCRIPTION:Watch: NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181215T153000
+DTEND;TZID=US-Central:20181215T183000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15ARZATL@southendzone.com
+SUMMARY:Arizona at Atlanta
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T120000
+DTEND;TZID=US-Central:20181216T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15TBBBAL@southendzone.com
+SUMMARY:Tampa Bay at Baltimore
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T120000
+DTEND;TZID=US-Central:20181216T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15DETBUF@southendzone.com
+SUMMARY:Detroit at Buffalo
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T120000
+DTEND;TZID=US-Central:20181216T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15GRBCHI@southendzone.com
+SUMMARY:Green Bay at Chicago
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T120000
+DTEND;TZID=US-Central:20181216T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15OAKCIN@southendzone.com
+SUMMARY:Oakland at Cincinnati
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T120000
+DTEND;TZID=US-Central:20181216T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15DALIND@southendzone.com
+SUMMARY:Dallas at Indianapolis
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T120000
+DTEND;TZID=US-Central:20181216T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15WASJAX@southendzone.com
+SUMMARY:Washington at Jacksonville
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T120000
+DTEND;TZID=US-Central:20181216T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15MIAMIN@southendzone.com
+SUMMARY:Miami at Minnesota
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T120000
+DTEND;TZID=US-Central:20181216T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15TENNYG@southendzone.com
+SUMMARY:Tennessee at NY Giants
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T120000
+DTEND;TZID=US-Central:20181216T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15SEASFF@southendzone.com
+SUMMARY:Seattle at San Francisco
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T150500
+DTEND;TZID=US-Central:20181216T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15NEPPGH@southendzone.com
+SUMMARY:New England at Pittsburgh
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T152500
+DTEND;TZID=US-Central:20181216T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15PHLSTL@southendzone.com
+SUMMARY:Philadelphia at LA Rams
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T192000
+DTEND;TZID=US-Central:20181216T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15NOSCAR@southendzone.com
+SUMMARY:New Orleans at Carolina
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181217T191500
+DTEND;TZID=US-Central:20181217T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16NYGIND@southendzone.com
+SUMMARY:NY Giants at Indianapolis
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T120000
+DTEND;TZID=US-Central:20181223T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16JAXMIA@southendzone.com
+SUMMARY:Jacksonville at Miami
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T120000
+DTEND;TZID=US-Central:20181223T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16WASTEN@southendzone.com
+SUMMARY:Washington at Tennessee
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T120000
+DTEND;TZID=US-Central:20181223T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16ATLCAR@southendzone.com
+SUMMARY:Atlanta at Carolina
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T120000
+DTEND;TZID=US-Central:20181223T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16CINCLE@southendzone.com
+SUMMARY:Cincinnati at Cleveland
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T120000
+DTEND;TZID=US-Central:20181223T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16TBBDAL@southendzone.com
+SUMMARY:Tampa Bay at Dallas
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T120000
+DTEND;TZID=US-Central:20181223T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16MINDET@southendzone.com
+SUMMARY:Minnesota at Detroit
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T120000
+DTEND;TZID=US-Central:20181223T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16BUFNEP@southendzone.com
+SUMMARY:Buffalo at New England
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T120000
+DTEND;TZID=US-Central:20181223T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16GRBNYJ@southendzone.com
+SUMMARY:Green Bay at NY Jets
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T120000
+DTEND;TZID=US-Central:20181223T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16HOUPHL@southendzone.com
+SUMMARY:Houston at Philadelphia
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T120000
+DTEND;TZID=US-Central:20181223T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16BALSDC@southendzone.com
+SUMMARY:Baltimore at LA Chargers
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T150500
+DTEND;TZID=US-Central:20181223T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16STLARZ@southendzone.com
+SUMMARY:LA Rams at Arizona
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T150500
+DTEND;TZID=US-Central:20181223T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16CHISFF@southendzone.com
+SUMMARY:Chicago at San Francisco
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T150500
+DTEND;TZID=US-Central:20181223T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16PGHNOS@southendzone.com
+SUMMARY:Pittsburgh at New Orleans
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T152500
+DTEND;TZID=US-Central:20181223T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16KCCSEA@southendzone.com
+SUMMARY:Kansas City at Seattle
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T192000
+DTEND;TZID=US-Central:20181223T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16DENOAK@southendzone.com
+SUMMARY:Denver at Oakland
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181224T191500
+DTEND;TZID=US-Central:20181224T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17CLEBAL@southendzone.com
+SUMMARY:Cleveland at Baltimore
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17MIABUF@southendzone.com
+SUMMARY:Miami at Buffalo
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17DETGRB@southendzone.com
+SUMMARY:Detroit at Green Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17JAXHOU@southendzone.com
+SUMMARY:Jacksonville at Houston
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17OAKKCC@southendzone.com
+SUMMARY:Oakland at Kansas City
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17CHIMIN@southendzone.com
+SUMMARY:Chicago at Minnesota
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17NYJNEP@southendzone.com
+SUMMARY:NY Jets at New England
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17CARNOS@southendzone.com
+SUMMARY:Carolina at New Orleans
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17DALNYG@southendzone.com
+SUMMARY:Dallas at NY Giants
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17CINPGH@southendzone.com
+SUMMARY:Cincinnati at Pittsburgh
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17ATLTBB@southendzone.com
+SUMMARY:Atlanta at Tampa Bay
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17INDTEN@southendzone.com
+SUMMARY:Indianapolis at Tennessee
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17PHLWAS@southendzone.com
+SUMMARY:Philadelphia at Washington
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T120000
+DTEND;TZID=US-Central:20181230T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17SDCDEN@southendzone.com
+SUMMARY:LA Chargers at Denver
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T150500
+DTEND;TZID=US-Central:20181230T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17ARZSEA@southendzone.com
+SUMMARY:Arizona at Seattle
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T150500
+DTEND;TZID=US-Central:20181230T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17SFFSTL@southendzone.com
+SUMMARY:San Francisco at LA Rams
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n20Apr2018 08:54pm CT data updated by Scott\n28Apr2018 5:35pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T150500
+DTEND;TZID=US-Central:20181230T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=US-Central:20190105
+DTEND;TZID=US-Central:20190106
+RRULE:FREQ=DAILY;UNTIL=20190106
+UID:2018x1@southendzone.com
+SUMMARY:NFL Wild Card
+DESCRIPTION:
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=US-Central:20190112
+DTEND;TZID=US-Central:20190113
+RRULE:FREQ=DAILY;UNTIL=20190113
+UID:2018x2@southendzone.com
+SUMMARY:NFL Divisional Playoffs
+DESCRIPTION:
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=US-Central:20190120
+DTEND;TZID=US-Central:20190121
+RRULE:FREQ=DAILY;UNTIL=20190120
+UID:2018x3@southendzone.com
+SUMMARY:NFL Conference Championships
+DESCRIPTION:
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=US-Central:20190127T140000
+DTEND;TZID=US-Central:20190127T170000
+UID:2018x4@southendzone.com
+SUMMARY:NFL Pro Bowl
+DESCRIPTION:Watch: ESPN (Natl)
+LOCATION:Camping World Stadium\, Orlando\, FL
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=US-Central:20190203T173000
+DTEND;TZID=US-Central:20190203T203000
+UID:2018x5@southendzone.com
+SUMMARY:Super Bowl 53
+DESCRIPTION:Watch: CBS (Natl)
+LOCATION:Mercedez-Benz Stadium\, Atlanda\, GA
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+END:VCALENDAR

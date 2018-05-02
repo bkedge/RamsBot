@@ -4,6 +4,7 @@ import giphypop
 from giphypop import translate
 import requests
 import json
+import aiohttp
 from config import TOKEN
 
 #TO DO LIST
@@ -67,17 +68,28 @@ async def player(*,  message: str):
     #print(message)
     name = message.split(" ")
     
-    r = requests.get('http://api.suredbits.com/nfl/v0/players/{}/{}'.format(name[1], name[0]))
-
+    if nameCheck(name) == 1:
+        print("Last name")
+        async with aiohttp.get('http://api.suredbits.com/nfl/v0/players/{}'.format(name[0])) as r:
+            pName = await r.text()
+    elif nameCheck(name) == 2:
+        print("Full name")
+        async with aiohttp.get('http://api.suredbits.com/nfl/v0/players/{}/{}'.format(name[1], name[0])) as r:
+            pName = await r.text()
+    else:
+        print("Too many")
     
-    print("Found json")
-    player_json = json.loads(r.text)
+    
+    #Old way
+    #r = requests.get('http://api.suredbits.com/nfl/v0/players/{}/{}'.format(name[1], name[0]))
+    
+    player_json = json.loads(pName)
         
     if isPlayer(player_json):
-        print(type(player_json))
+        #print(type(player_json))
         print(player_json[0]['weight'])
         player = player_json[0]
-        print(type(player))
+        #print(type(player))
     else:
         print("In error")
         await bot.say("No player found")
@@ -87,6 +99,13 @@ def isPlayer(playerFile):
         return False
     else:
         return True
+
+#Checks if just first or last name entered by counting
+def nameCheck(nameInput):
+    number_of_names = len(nameInput)
+    #print(number_of_names)
+    return number_of_names
+    
 
     
 bot.run(TOKEN) 

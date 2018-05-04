@@ -9,11 +9,13 @@ from config import TOKEN
 
 #TO DO LIST
 #!addme - add list of people to be notified for game
-#!next - shows when next game is
-#!player - gets general player info
-#!playerstats - gets player stats for a certain year. May need to adjust for position
 #!removeme - removes from notification list
-#!teamstats - shows stats for a certain team
+#!next - shows when next game is
+#!gameday - shows games and times of the day
+#!player - gets general player info - DONE
+#!playerstats - gets player stats for a certain year. May need to adjust for position
+
+#!teamstats(maybe) - shows stats for a certain team
 
 #Description
 description = 'Bot for Los Angeles Rams discord server'
@@ -57,14 +59,13 @@ async def gif(*, message: str):
     url = img.url
     await bot.say(url)
 
-
 #NFL Commands
 
 #Gets general player info
 @bot.command()
 async def player(*,  message: str):
     """Gets general player info"""
-    await bot.say("Getting player info")
+    #await bot.say("Getting player info")
     #print(message)
     name = message.split(" ")
     
@@ -78,21 +79,21 @@ async def player(*,  message: str):
             pName = await r.text()
     else:
         print("Too many")
-    
-    
-    #Old way
-    #r = requests.get('http://api.suredbits.com/nfl/v0/players/{}/{}'.format(name[1], name[0]))
-    
+        
     player_json = json.loads(pName)
         
     if isPlayer(player_json):
-        #print(type(player_json))
-        print(player_json[0]['weight'])
+        #print(player_json[0]['weight'])
         player = player_json[0]
-        #print(type(player))
+        print(player)
+        botString = "```Name: {}\nNumber: {}\nTeam: {}\nPosition: {}\nStatus: {}\nYears Pro: {}\nCollege: {}\nHeight (inches): {}\nWeight: {}\nBorn: {}\n```NFL Profile: {}".format(player['fullName'], player['uniformNumber'], player['team'], player['position'], player['status'], player['yearsPro'], player['college'], player['height'], player['weight'], player['birthDate'], player['profileUrl'])
+        await bot.say(botString)
     else:
         print("In error")
         await bot.say("No player found")
+
+
+#Functions
 
 def isPlayer(playerFile):
     if len(playerFile) == 0:
@@ -107,5 +108,5 @@ def nameCheck(nameInput):
     return number_of_names
     
 
-    
+#Runs the bot 
 bot.run(TOKEN) 

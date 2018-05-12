@@ -5,11 +5,11 @@ from giphypop import translate
 import requests
 import json
 import aiohttp
-from config import TOKEN
+from config import TOKEN, giphyKey
 
 #TO DO LIST
-#!addme - add list of people to be notified for game
-#!removeme - removes from notification list
+#!addme - add list of people to be notified for game - DONE
+#!removeme - removes from notification list - DONE
 #!next - shows when next game is
 #!gameday - shows games and times of the day
 #!player - gets general player info - DONE
@@ -21,13 +21,17 @@ from config import TOKEN
 description = 'Bot for Los Angeles Rams discord server'
 
 #Sets up bot
+#print("Starting up bot")
 bot = commands.Bot(command_prefix = '!', description = description, pm_help=True)
 
 #Remove the help command
 bot.remove_command('help')
 
 #Giphy object
-g = giphypop.Giphy()
+g = giphypop.Giphy(api_key=giphyKey)
+
+#List for the !addme command
+userList = []
 
 #Logs in
 @bot.event
@@ -41,8 +45,10 @@ async def on_ready():
 @bot.event
 async def on_message(message):
     """Gives help with bot"""
+    #!help Command
     if message.content.startswith('!help'):
-        await bot.send_message(message.author, "I can help you")
+        helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!player [name]:** Gets general information of a player"
+        await bot.send_message(message.author, helpString)
     await bot.process_commands(message)
 
 #Basic hello command
@@ -55,7 +61,7 @@ async def hello():
 @bot.command()
 async def gif(*, message: str):
     """ Fetches gif """
-    img = translate(message)
+    img = translate(message, api_key=giphyKey)
     url = img.url
     await bot.say(url)
 
@@ -65,8 +71,6 @@ async def gif(*, message: str):
 @bot.command()
 async def player(*,  message: str):
     """Gets general player info"""
-    #await bot.say("Getting player info")
-    #print(message)
     name = message.split(" ")
     
     if nameCheck(name) == 1:
@@ -83,7 +87,6 @@ async def player(*,  message: str):
     player_json = json.loads(pName)
         
     if isPlayer(player_json):
-        #print(player_json[0]['weight'])
         player = player_json[0]
         print(player)
         botString = "```Name: {}\nNumber: {}\nTeam: {}\nPosition: {}\nStatus: {}\nYears Pro: {}\nCollege: {}\nHeight (inches): {}\nWeight: {}\nBorn: {}\n```NFL Profile: {}".format(player['fullName'], player['uniformNumber'], player['team'], player['position'], player['status'], player['yearsPro'], player['college'], player['height'], player['weight'], player['birthDate'], player['profileUrl'])
@@ -93,8 +96,52 @@ async def player(*,  message: str):
         await bot.say("No player found")
 
 
-#Functions
+@bot.command(pass_context = True)
+async def addme(ctx):
+    #!addme command
+    user = ctx.message.author.id
+    pm = await bot.get_user_info(user)
 
+    with open('userList.json') as userFile:
+        data = json.load(userFile)
+        
+        if user in data:
+            await bot.send_message(pm, "It seems you are already in the list. Could this be an error? PM wh33lybrdy if so")
+            return
+            
+        data.append(user)
+    await bot.send_message(pm, "You've been added to the game reminder list. To remove yourself do `!removeme`")
+    
+    with open('userList.json', 'w') as outfile:
+        json.dump(data, outfile)
+
+#!removeme command
+@bot.command(pass_context = True)
+async def removeme(ctx):
+    user = ctx.message.author.id
+    pm = await bot.get_user_info(user)
+
+    with open('userList.json') as userFile:
+        data = json.load(userFile)
+        print(data)
+        print(type(data))
+
+        if user in data:
+            data.remove(user)
+        else:
+            await bot.send_message(pm, "Could not find you in UserList. If you think this is an error message wh33lybrdy")
+            return
+
+    with open('userList.json', 'w') as outfile:
+        json.dump(data, outfile)
+    
+    await bot.send_message(pm, "You have been removed from game reminders")
+
+'''
+Functions
+'''
+
+#Checks if player exists. If json is empty, then player doesn't exist
 def isPlayer(playerFile):
     if len(playerFile) == 0:
         return False

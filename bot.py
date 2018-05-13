@@ -7,6 +7,8 @@ import json
 import aiohttp
 from config import TOKEN, giphyKey
 
+from utils import isPlayer, nameCheck
+
 #TO DO LIST
 #!addme - add list of people to be notified for game - DONE
 #!removeme - removes from notification list - DONE
@@ -40,14 +42,15 @@ async def on_ready():
     print('Logged in')
     print(bot.user.name)
     print(bot.user.id)
+    await bot.change_presence(game=discord.Game(name='bradykedge.com', type=0))
     print('--------')
-
+    
 @bot.event
 async def on_message(message):
     """Gives help with bot"""
     #!help Command
     if message.content.startswith('!help'):
-        helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!player [name]:** Gets general information of a player"
+        helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!gif [search terms]:** Searches for gif of given terms\n**!player [name]:** Gets general information of a player"
         await bot.send_message(message.author, helpString)
     await bot.process_commands(message)
 
@@ -136,23 +139,6 @@ async def removeme(ctx):
         json.dump(data, outfile)
     
     await bot.send_message(pm, "You have been removed from game reminders")
-
-'''
-Functions
-'''
-
-#Checks if player exists. If json is empty, then player doesn't exist
-def isPlayer(playerFile):
-    if len(playerFile) == 0:
-        return False
-    else:
-        return True
-
-#Checks if just first or last name entered by counting
-def nameCheck(nameInput):
-    number_of_names = len(nameInput)
-    #print(number_of_names)
-    return number_of_names
     
 
 #Runs the bot 

@@ -74,29 +74,34 @@ async def gif(*, message: str):
 @bot.command()
 async def player(*,  message: str):
     """Gets general player info"""
-    name = message.split(" ")
+    try:
+        name = message.split(" ")
+        if nameCheck(name) == 1:
+            print("Last name")
+            async with aiohttp.get('http://api.suredbits.com/nfl/v0/players/{}'.format(name[0])) as r:
+                pName = await r.text()
+        elif nameCheck(name) == 2:
+            print("Full name")
+            async with aiohttp.get('http://api.suredbits.com/nfl/v0/players/{}/{}'.format(name[1], name[0])) as r:
+                pName = await r.text()
+        else:
+            print("Too many")
+            
+        player_json = json.loads(pName)
+            
+        if isPlayer(player_json):
+            player = player_json[0]
+            print(player)
+            botString = "```Name: {}\nNumber: {}\nTeam: {}\nPosition: {}\nStatus: {}\nYears Pro: {}\nCollege: {}\nHeight (inches): {}\nWeight: {}\nBorn: {}\n```NFL Profile: {}".format(player['fullName'], player['uniformNumber'], player['team'], player['position'], player['status'], player['yearsPro'], player['college'], player['height'], player['weight'], player['birthDate'], player['profileUrl'])
+            await bot.say(botString)
+        else:
+            print("In error")
+            await bot.say("No player found")
+    except:
+        await bot.say("An error happened please try again")
     
-    if nameCheck(name) == 1:
-        print("Last name")
-        async with aiohttp.get('http://api.suredbits.com/nfl/v0/players/{}'.format(name[0])) as r:
-            pName = await r.text()
-    elif nameCheck(name) == 2:
-        print("Full name")
-        async with aiohttp.get('http://api.suredbits.com/nfl/v0/players/{}/{}'.format(name[1], name[0])) as r:
-            pName = await r.text()
-    else:
-        print("Too many")
-        
-    player_json = json.loads(pName)
-        
-    if isPlayer(player_json):
-        player = player_json[0]
-        print(player)
-        botString = "```Name: {}\nNumber: {}\nTeam: {}\nPosition: {}\nStatus: {}\nYears Pro: {}\nCollege: {}\nHeight (inches): {}\nWeight: {}\nBorn: {}\n```NFL Profile: {}".format(player['fullName'], player['uniformNumber'], player['team'], player['position'], player['status'], player['yearsPro'], player['college'], player['height'], player['weight'], player['birthDate'], player['profileUrl'])
-        await bot.say(botString)
-    else:
-        print("In error")
-        await bot.say("No player found")
+    
+    
 
 
 @bot.command(pass_context = True)

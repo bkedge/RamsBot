@@ -1,0 +1,275 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:Los Angeles Rams
+X-WR-CALDESC:Scott Crevier, smc@smcnet.com
+PRODID:-//Scott Crevier//SouthEndZone.com//EN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:US-Central
+BEGIN:STANDARD
+DTSTART:16010101T020000
+TZOFFSETTO:-0600
+TZOFFSETFROM:-0500
+RRULE:FREQ=YEARLY;WKST=MO;INTERVAL=1;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T020000
+TZOFFSETTO:-0500
+TZOFFSETFROM:-0600
+RRULE:FREQ=YEARLY;WKST=MO;INTERVAL=1;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2018p01STLBAL@southendzone.com
+SUMMARY:LA Rams at Baltimore
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180809T183000
+DTEND;TZID=US-Central:20180809T213000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p02OAKSTL@southendzone.com
+SUMMARY:Oakland at LA Rams
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180818T150000
+DTEND;TZID=US-Central:20180818T180000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p03HOUSTL@southendzone.com
+SUMMARY:Houston at LA Rams
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180825T150000
+DTEND;TZID=US-Central:20180825T180000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018p04STLNOS@southendzone.com
+SUMMARY:LA Rams at New Orleans
+DESCRIPTION:\nPRE-SEASON\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180830T190000
+DTEND;TZID=US-Central:20180830T220000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w01STLOAK@southendzone.com
+SUMMARY:LA Rams at Oakland
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180910T212000
+DTEND;TZID=US-Central:20180911T002000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w02ARZSTL@southendzone.com
+SUMMARY:Arizona at LA Rams
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180916T150500
+DTEND;TZID=US-Central:20180916T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w03SDCSTL@southendzone.com
+SUMMARY:LA Chargers at LA Rams
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180923T150500
+DTEND;TZID=US-Central:20180923T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w04MINSTL@southendzone.com
+SUMMARY:Minnesota at LA Rams
+DESCRIPTION:Watch: FOX\, NFLN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20180927T192000
+DTEND;TZID=US-Central:20180927T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w05STLSEA@southendzone.com
+SUMMARY:LA Rams at Seattle
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181007T150500
+DTEND;TZID=US-Central:20181007T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w06STLDEN@southendzone.com
+SUMMARY:LA Rams at Denver
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181014T150500
+DTEND;TZID=US-Central:20181014T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w07STLSFF@southendzone.com
+SUMMARY:LA Rams at San Francisco
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181021T192000
+DTEND;TZID=US-Central:20181021T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w08GRBSTL@southendzone.com
+SUMMARY:Green Bay at LA Rams
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181028T152500
+DTEND;TZID=US-Central:20181028T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w09STLNOS@southendzone.com
+SUMMARY:LA Rams at New Orleans
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181104T152500
+DTEND;TZID=US-Central:20181104T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w10SEASTL@southendzone.com
+SUMMARY:Seattle at LA Rams
+DESCRIPTION:Watch: CBS\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181111T152500
+DTEND;TZID=US-Central:20181111T182500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w11KCCSTL@southendzone.com
+SUMMARY:Kansas City at LA Rams
+DESCRIPTION:Watch: ESPN\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181119T191500
+DTEND;TZID=US-Central:20181119T221500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w13STLDET@southendzone.com
+SUMMARY:LA Rams at Detroit
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181202T120000
+DTEND;TZID=US-Central:20181202T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w14STLCHI@southendzone.com
+SUMMARY:LA Rams at Chicago
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181209T120000
+DTEND;TZID=US-Central:20181209T150000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w15PHLSTL@southendzone.com
+SUMMARY:Philadelphia at LA Rams
+DESCRIPTION:Watch: NBC\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181216T192000
+DTEND;TZID=US-Central:20181216T222000
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w16STLARZ@southendzone.com
+SUMMARY:LA Rams at Arizona
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181223T150500
+DTEND;TZID=US-Central:20181223T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:2018w17SFFSTL@southendzone.com
+SUMMARY:San Francisco at LA Rams
+DESCRIPTION:Watch: FOX\n\nhttp://www.southendzone.com/\nhttp://www.facebook.com/southendzone\n\n03May2018 10:19pm CT data updated by Scott\n14May2018 6:44pm CT data updated by your calendar program\n
+DTSTART;TZID=US-Central:20181230T150500
+DTEND;TZID=US-Central:20181230T180500
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=US-Central:20190105
+DTEND;TZID=US-Central:20190106
+RRULE:FREQ=DAILY;UNTIL=20190106
+UID:2018x1@southendzone.com
+SUMMARY:NFL Wild Card
+DESCRIPTION:
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=US-Central:20190112
+DTEND;TZID=US-Central:20190113
+RRULE:FREQ=DAILY;UNTIL=20190113
+UID:2018x2@southendzone.com
+SUMMARY:NFL Divisional Playoffs
+DESCRIPTION:
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=US-Central:20190120
+DTEND;TZID=US-Central:20190121
+RRULE:FREQ=DAILY;UNTIL=20190120
+UID:2018x3@southendzone.com
+SUMMARY:NFL Conference Championships
+DESCRIPTION:
+LOCATION:
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=US-Central:20190127T140000
+DTEND;TZID=US-Central:20190127T170000
+UID:2018x4@southendzone.com
+SUMMARY:NFL Pro Bowl
+DESCRIPTION:Watch: ESPN (Natl)
+LOCATION:Camping World Stadium\, Orlando\, FL
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=US-Central:20190203T173000
+DTEND;TZID=US-Central:20190203T203000
+UID:2018x5@southendzone.com
+SUMMARY:Super Bowl 53
+DESCRIPTION:Watch: CBS (Natl)
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, GA
+STATUS:CONFIRMED
+CLASS:PUBLIC
+END:VEVENT
+END:VCALENDAR

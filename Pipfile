@@ -8,6 +8,8 @@ discord = "*"
 giphypop = "*"
 requests = "*"
 aiohttp = "*"
+icalendar = "*"
+pytz = "*"
 
 [dev-packages]
 

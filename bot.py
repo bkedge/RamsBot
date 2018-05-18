@@ -5,6 +5,9 @@ from giphypop import translate
 import requests
 import json
 import aiohttp
+from icalendar import Calendar, Event
+from datetime import datetime
+
 from config import TOKEN, giphyKey
 
 from utils import isPlayer, nameCheck
@@ -44,7 +47,8 @@ async def on_ready():
     print(bot.user.id)
     await bot.change_presence(game=discord.Game(name='bradykedge.com', type=0))
     print('--------')
-    
+
+#Help Comman
 @bot.event
 async def on_message(message):
     """Gives help with bot"""
@@ -54,13 +58,13 @@ async def on_message(message):
         await bot.send_message(message.author, helpString)
     await bot.process_commands(message)
 
-#Basic hello command
+#Basic hello command for testing
 @bot.command()
 async def hello():
     """ Says world """
     await bot.say("world")
 
-#Gets gif and pastes url
+#Gets gif and says URL thereby posting the gif
 @bot.command()
 async def gif(*, message: str):
     """ Fetches gif """
@@ -92,7 +96,7 @@ async def player(*,  message: str):
         if isPlayer(player_json):
             player = player_json[0]
             print(player)
-            botString = "```Name: {}\nNumber: {}\nTeam: {}\nPosition: {}\nStatus: {}\nYears Pro: {}\nCollege: {}\nHeight (inches): {}\nWeight: {}\nBorn: {}\n```NFL Profile: {}".format(player['fullName'], player['uniformNumber'], player['team'], player['position'], player['status'], player['yearsPro'], player['college'], player['height'], player['weight'], player['birthDate'], player['profileUrl'])
+            botString = "```Name: {}\nNumber: {}\nTeam: {}\nPosition: {}\nStatus: {}\nYears Pro: {}\nCollege: {}\nHeight (in.): {}\nWeight: {}\nBorn: {}\n```NFL Profile: {}".format(player['fullName'], player['uniformNumber'], player['team'], player['position'], player['status'], player['yearsPro'], player['college'], player['height'], player['weight'], player['birthDate'], player['profileUrl'])
             await bot.say(botString)
         else:
             print("In error")
@@ -103,7 +107,7 @@ async def player(*,  message: str):
     
     
 
-
+#Adds user to list of Rams game reminders
 @bot.command(pass_context = True)
 async def addme(ctx):
     #!addme command
@@ -114,6 +118,7 @@ async def addme(ctx):
         data = json.load(userFile)
         
         if user in data:
+            #If user in file already, tell them and return
             await bot.send_message(pm, "It seems you are already in the list. Could this be an error? PM wh33lybrdy if so")
             return
             
@@ -123,7 +128,7 @@ async def addme(ctx):
     with open('userList.json', 'w') as outfile:
         json.dump(data, outfile)
 
-#!removeme command
+#Removes users from list of Rams game reminders
 @bot.command(pass_context = True)
 async def removeme(ctx):
     user = ctx.message.author.id
@@ -137,6 +142,7 @@ async def removeme(ctx):
         if user in data:
             data.remove(user)
         else:
+            #If user not found then tell them and return
             await bot.send_message(pm, "Could not find you in UserList. If you think this is an error message wh33lybrdy")
             return
 
@@ -144,7 +150,15 @@ async def removeme(ctx):
         json.dump(data, outfile)
     
     await bot.send_message(pm, "You have been removed from game reminders")
-    
+
+@bot.command(pass_context = True)
+async def next(ctx):
+    #Calendar stuff
+    g = open('rams.ics', 'rb')
+    sched = Calendar.from_ical(g.read())
+    for component in sched.walk():
+        if component.name == "VEVENT":
+            print(component.get('summary'))
 
 #Runs the bot 
 bot.run(TOKEN) 

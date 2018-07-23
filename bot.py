@@ -138,24 +138,31 @@ async def addme(ctx):
 @bot.command(pass_context = True)
 async def removeme(ctx):
     user = ctx.message.author.id
-    pm = await bot.get_user_info(user)
 
-    with open('userList.json') as userFile:
-        data = json.load(userFile)
-        print(data)
-        print(type(data))
+    try:
+        pm = await bot.get_user_info(user)
+        
+        with open('userList.json') as userFile:
+            data = json.load(userFile)
+            print(data)
+            print(type(data))
 
-        if user in data:
-            data.remove(user)
-        else:
-            #If user not found then tell them and return
-            await bot.send_message(pm, "Could not find you in UserList. If you think this is an error message wh33lybrdy")
-            return
+            if user in data:
+                data.remove(user)
+            else:
+                #If user not found then tell them and return
+                await bot.send_message(pm, "Could not find you in UserList. If you think this is an error message wh33lybrdy")
+                return
 
-    with open('userList.json', 'w') as outfile:
-        json.dump(data, outfile)
+        with open('userList.json', 'w') as outfile:
+            json.dump(data, outfile)
+        
+        await bot.send_message(pm, "You have been removed from game reminders")
+    except:
+        await bot.say('An error happened, please try again or contact @wh33lybrdy')
     
-    await bot.send_message(pm, "You have been removed from game reminders")
+
+    
 
 @bot.command(pass_context = True)
 async def next(ctx):

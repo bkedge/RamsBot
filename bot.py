@@ -115,19 +115,24 @@ async def addme(ctx):
     user = ctx.message.author.id
     pm = await bot.get_user_info(user)
 
-    with open('userList.json') as userFile:
-        data = json.load(userFile)
-        
-        if user in data:
-            #If user in file already, tell them and return
-            await bot.send_message(pm, "It seems you are already in the list. Could this be an error? PM wh33lybrdy if so")
-            return
+    try:
+        with open('userList.json') as userFile:
+            data = json.load(userFile)
             
-        data.append(user)
-    await bot.send_message(pm, "You've been added to the game reminder list. To remove yourself do `!removeme`")
+            if user in data:
+                #If user in file already, tell them and return
+                await bot.send_message(pm, "It seems you are already in the list. Could this be an error? PM wh33lybrdy if so")
+                return
+                
+            data.append(user)
+        
+        await bot.send_message(pm, "You've been added to the game reminder list. To remove yourself do `!removeme`")
+        
+        with open('userList.json', 'w') as outfile:
+            json.dump(data, outfile)
+    except:
+        await bot.say('An error happened, please try again or contact @wh33lybrdy')
     
-    with open('userList.json', 'w') as outfile:
-        json.dump(data, outfile)
 
 #Removes users from list of Rams game reminders
 @bot.command(pass_context = True)

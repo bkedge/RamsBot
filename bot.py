@@ -6,6 +6,8 @@ import requests
 import json
 import aiohttp
 import pytz
+import datetime
+from datetime import date
 from icalendar import Calendar, Event
 from datetime import datetime
 
@@ -17,7 +19,7 @@ from utils import isPlayer, nameCheck
 #!addme - add list of people to be notified for game - DONE
 #!removeme - removes from notification list - DONE
 #!next - shows when next game is
-#!gameday - shows games and times of the day
+#!schedule - shows games and times of the day
 #!player - gets general player info - DONE
 #!playerstats - gets player stats for a certain year. May need to adjust for position
 
@@ -162,7 +164,16 @@ async def removeme(ctx):
         await bot.say('An error happened, please try again or contact @wh33lybrdy')
     
 
-    
+@bot.command(pass_context = True)
+async def schedule(ctx, message: str = None):
+    await bot.say('We here now')
+
+    if message:
+        await bot.say('We got the message: {}'.format(message))
+    else:
+        await bot.say("We got nothing")
+        today = date.today()
+        print(today)
 
 @bot.command(pass_context = True)
 async def next(ctx):

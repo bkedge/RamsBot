@@ -4,6 +4,7 @@ import giphypop
 from giphypop import translate
 import requests
 import json
+import asyncio
 import aiohttp
 import pytz
 import datetime
@@ -48,49 +49,53 @@ async def on_ready():
     print('Logged in')
     print(bot.user.name)
     print(bot.user.id)
-    await bot.change_presence(game=discord.Game(name='bradykedge.com', type=0))
+    #await bot.change_presence(game=discord.Game(name='bradykedge.com', type=0))
     print('--------')
 
 #Help Comman
+"""
 @bot.event
-async def on_message(message):
-    """Gives help with bot"""
+async def on_message(ctx, message: str):
+    Gives help with bot
     #!help Command
     if message.content.startswith('!help'):
         helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!gif [search terms]:** Searches for gif of given terms\n**!player [name]:** Gets general information of a player"
-        await bot.send_message(message.author, helpString)
+        await ctx.send_message(message.author, helpString)
     await bot.process_commands(message)
+"""
 
 #Basic hello command for testing
 @bot.command()
-async def hello():
+async def hello(ctx):
     """ Says world """
-    await bot.say("world")
+    await ctx.send("world")
 
 #Gets gif and says URL thereby posting the gif
 @bot.command()
-async def gif(*, message: str):
+async def gif(ctx, *, message: str):
     """ Fetches gif """
     img = translate(message, api_key=giphyKey)
     url = img.url
-    await bot.say(url)
+    await ctx.send(url)
 
 #NFL Commands
 
 #Gets general player info
 @bot.command()
-async def player(*,  message: str):
+async def player(ctx, *, message: str):
     """Gets general player info"""
     try:
         name = message.split(" ")
         if nameCheck(name) == 1:
             print("Last name")
-            async with aiohttp.get('http://api.suredbits.com/nfl/v0/players/{}'.format(name[0])) as r:
-                pName = await r.text()
+            async with aiohttp.ClientSession() as session:
+                async with session.get('http://api.suredbits.com/nfl/v0/players/{}'.format(name[0])) as r:
+                    pName = await r.text()
         elif nameCheck(name) == 2:
             print("Full name")
-            async with aiohttp.get('http://api.suredbits.com/nfl/v0/players/{}/{}'.format(name[1], name[0])) as r:
-                pName = await r.text()
+            async with aiohttp.ClientSession() as session:
+                async with session.get('http://api.suredbits.com/nfl/v0/players/{}/{}'.format(name[1], name[0])) as r:
+                    pName = await r.text()
         else:
             print("Too many")
             
@@ -100,50 +105,52 @@ async def player(*,  message: str):
             player = player_json[0]
             print(player)
             botString = "```Name: {}\nNumber: {}\nTeam: {}\nPosition: {}\nStatus: {}\nYears Pro: {}\nCollege: {}\nHeight (in.): {}\nWeight: {}\nBorn: {}\n```NFL Profile: {}".format(player['fullName'], player['uniformNumber'], player['team'], player['position'], player['status'], player['yearsPro'], player['college'], player['height'], player['weight'], player['birthDate'], player['profileUrl'])
-            await bot.say(botString)
+            await ctx.send(botString)
         else:
             print("In error")
-            await bot.say("No player found")
+            await ctx.send("No player found")
     except:
-        await bot.say("An error happened please try again")
+        await ctx.send("An error happened please try again")
     
     
     
 
 #Adds user to list of Rams game reminders
-@bot.command(pass_context = True)
-async def addme(ctx):
+@bot.command()
+async def addme(ctx, member: discord.Member = None):
     #!addme command
-    user = ctx.message.author.id
-    pm = await bot.get_user_info(user)
+    if member is None:
+        user = ctx.author.id
 
     try:
         with open('userList.json') as userFile:
+            print('opened file')
             data = json.load(userFile)
             
             if user in data:
                 #If user in file already, tell them and return
-                await bot.send_message(pm, "It seems you are already in the list. Could this be an error? PM wh33lybrdy if so")
+                print('Already in list')
+                await bot.get_user(user).send("It seems you are already in the list. Could this be an error? PM wh33lybrdy if so")
                 return
                 
             data.append(user)
-        
-        await bot.send_message(pm, "You've been added to the game reminder list. To remove yourself do `!removeme`")
+        print('Added')
+        await bot.get_user(user).send("You've been added to the game reminder list. To remove yourself do `!removeme`")
         
         with open('userList.json', 'w') as outfile:
             json.dump(data, outfile)
     except:
-        await bot.say('An error happened, please try again or contact @wh33lybrdy')
-    
+        await ctx.send('An error happened, please try again or contact @wh33lybrdy')
+
 
 #Removes users from list of Rams game reminders
-@bot.command(pass_context = True)
-async def removeme(ctx):
-    user = ctx.message.author.id
+@bot.command()
+async def removeme(ctx, member: discord.Member = None):
+    
+    if member is None:
+        user = ctx.author.id
 
     try:
-        pm = await bot.get_user_info(user)
-        
         with open('userList.json') as userFile:
             data = json.load(userFile)
             print(data)
@@ -153,29 +160,29 @@ async def removeme(ctx):
                 data.remove(user)
             else:
                 #If user not found then tell them and return
-                await bot.send_message(pm, "Could not find you in UserList. If you think this is an error message wh33lybrdy")
+                await bot.get_user(user).send("Could not find you in UserList. If you think this is an error message wh33lybrdy")
                 return
 
         with open('userList.json', 'w') as outfile:
             json.dump(data, outfile)
         
-        await bot.send_message(pm, "You have been removed from game reminders")
+        await bot.get_user(user).send("You have been removed from game reminders")
     except:
-        await bot.say('An error happened, please try again or contact @wh33lybrdy')
+        await ctx.send('An error happened, please try again or contact @wh33lybrdy')
     
 
-@bot.command(pass_context = True)
+@bot.command()
 async def schedule(ctx, message: str = None):
-    await bot.say('We here now')
+    await ctx.send('We here now')
 
     if message:
-        await bot.say('We got the message: {}'.format(message))
+        await ctx.send('We got the message: {}'.format(message))
     else:
-        await bot.say("We got nothing")
+        await ctx.send("We got nothing")
         today = date.today()
         print(today)
 
-@bot.command(pass_context = True)
+@bot.command()
 async def next(ctx):
     #Calendar stuff
     g = open('rams.ics', 'rb')

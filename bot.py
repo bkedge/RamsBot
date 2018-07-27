@@ -19,12 +19,14 @@ from utils import isPlayer, nameCheck
 #TO DO LIST
 #!addme - add list of people to be notified for game - DONE
 #!removeme - removes from notification list - DONE
-#!next - shows when next game is
-#!schedule - shows games and times of the day
+#!next - shows when next game is - DONE
+#!schedule - shows games and times of the day - DONE
 #!player - gets general player info - DONE
 #!playerstats - gets player stats for a certain year. May need to adjust for position
 
+#MAYBE
 #!teamstats(maybe) - shows stats for a certain team
+#!standings - shows standings for certain divison/conference
 
 #Description
 description = 'Bot for Los Angeles Rams discord server'
@@ -39,9 +41,6 @@ bot.remove_command('help')
 #Giphy object
 g = giphypop.Giphy(api_key=giphyKey)
 
-#List for the !addme command
-userList = []
-
 #Logs in
 @bot.event
 async def on_ready():
@@ -52,17 +51,13 @@ async def on_ready():
     #await bot.change_presence(game=discord.Game(name='bradykedge.com', type=0))
     print('--------')
 
-#Help Comman
-"""
-@bot.event
-async def on_message(ctx, message: str):
-    Gives help with bot
-    #!help Command
-    if message.content.startswith('!help'):
-        helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!gif [search terms]:** Searches for gif of given terms\n**!player [name]:** Gets general information of a player"
-        await ctx.send_message(message.author, helpString)
-    await bot.process_commands(message)
-"""
+#Help Command
+bot.remove_command('help')
+@bot.command()
+async def help(ctx, member: discord.Member = None):
+    user = ctx.author.id
+    helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!gif [search terms]:** Searches for gif of given terms\n**!player [name]:** Gets general information of a player"
+    await bot.get_user(user).send(helpString)
 
 #Basic hello command for testing
 @bot.command()
@@ -112,15 +107,11 @@ async def player(ctx, *, message: str):
     except:
         await ctx.send("An error happened please try again")
     
-    
-    
-
 #Adds user to list of Rams game reminders
 @bot.command()
 async def addme(ctx, member: discord.Member = None):
     #!addme command
-    if member is None:
-        user = ctx.author.id
+    user = ctx.author.id
 
     try:
         with open('userList.json') as userFile:
@@ -142,13 +133,11 @@ async def addme(ctx, member: discord.Member = None):
     except:
         await ctx.send('An error happened, please try again or contact @wh33lybrdy')
 
-
 #Removes users from list of Rams game reminders
 @bot.command()
 async def removeme(ctx, member: discord.Member = None):
-    
-    if member is None:
-        user = ctx.author.id
+    #!removeme command
+    user = ctx.author.id
 
     try:
         with open('userList.json') as userFile:
@@ -169,27 +158,68 @@ async def removeme(ctx, member: discord.Member = None):
         await bot.get_user(user).send("You have been removed from game reminders")
     except:
         await ctx.send('An error happened, please try again or contact @wh33lybrdy')
-    
 
 @bot.command()
 async def schedule(ctx, message: str = None):
-    await ctx.send('We here now')
+    #ICS format is YYYYMMDD
+    gameday_str = ""
 
-    if message:
-        await ctx.send('We got the message: {}'.format(message))
-    else:
-        await ctx.send("We got nothing")
-        today = date.today()
-        print(today)
+    try:
+        if message:
+            #await ctx.send('We got the message: {}'.format(message))
+            #user_date = datetime.strptime(message, '%Y%m%d').strftime('%m/%d/%Y')
+            today = date.today()
+            user_date = datetime.strptime(message, '%Y%m%d').date()
+            #user_date = user_date.date()
+            print(user_date)
+        else:
+            #await ctx.send("We got nothing")
+            today = date.today()
+            user_date = today
+            print(today)
+            #Calendar stuff
+
+        g = open('nfl.ics', 'rb')
+        sched = Calendar.from_ical(g.read())
+        for component in sched.walk('VEVENT'):
+            if component['DTSTART'].dt.date() == user_date:
+                print('{}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%d/%m/%Y %I:%M")))
+                gameday_str += '{}: {} CST\n'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%d/%m/%Y %I:%M"))
+            elif component['DTSTART'].dt.date() > user_date:
+                break
+
+        if not gameday_str:
+            await ctx.send("No games today")
+        else:
+            await ctx.send("```{}```".format(gameday_str))
+        
+    except:
+        await ctx.send("An error happened. Please contact @wh33lybrdy")
+        
+    
+    
+        
 
 @bot.command()
 async def next(ctx):
     #Calendar stuff
-    g = open('rams.ics', 'rb')
-    sched = Calendar.from_ical(g.read())
-    for component in sched.walk():
-        if component.name == "VEVENT":
-            print(component.get('summary'))
+    try:
+        today = date.today()
+        print(today)
+        g = open('rams.ics', 'rb')
+        sched = Calendar.from_ical(g.read())
+        for component in sched.walk('VEVENT'):
+            print('Found: {}'.format(component['DTSTART'].dt.date()))
+            if component['DTSTART'].dt.date() >= today:
+                print('Next game is: {}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%d/%m/%Y %I:%M")))
+                await ctx.send('{}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%d/%m/%Y %I:%M")))
+                break
+    except:
+        await ctx.send('An error happened. Please contact @wh33lybrdy')
+    
+        #if component.name == "VEVENT":
+            #print(component['DTSTART'].dt)
+
 
 #Runs the bot 
 bot.run(TOKEN) 

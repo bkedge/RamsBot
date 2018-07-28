@@ -3,6 +3,7 @@ from discord.ext import commands
 import giphypop
 from giphypop import translate
 import requests
+import base64
 import json
 import asyncio
 import aiohttp
@@ -12,7 +13,7 @@ from datetime import date
 from icalendar import Calendar, Event
 from datetime import datetime
 
-from config import TOKEN, giphyKey
+from config import TOKEN, giphyKey, API_Key
 
 from utils import isPlayer, nameCheck
 
@@ -56,14 +57,23 @@ bot.remove_command('help')
 @bot.command()
 async def help(ctx, member: discord.Member = None):
     user = ctx.author.id
-    helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!gif [search terms]:** Searches for gif of given terms\n**!player [name]:** Gets general information of a player"
+    helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!gif [search terms]:** Searches for gif of given terms\n**!player [name]:** Gets general information of a player\n**!next:** Get day and time of next Rams game\n**!schedule (YYYYMMDD):** Gets list of games for given date. If no date given, bot will get games of current day\n**!addme:** Add yourself to list of users to be PM'd 30 minutes before the next Rams game starts\n**!removeme:** Remove yourself from reminder list"
     await bot.get_user(user).send(helpString)
 
-#Basic hello command for testing
+#Provides info for the bot
 @bot.command()
-async def hello(ctx):
-    """ Says world """
-    await ctx.send("world")
+async def info(ctx):
+    embed = discord.Embed(title="RamsBot", description="Bot for the /r/LosAngelesRams discord server. List of commands [required] (optional) are:", color=0xeee657)
+
+    embed.add_field(name="!help", value="PM's a list of commands for the bot", inline=False)
+    embed.add_field(name="!gif [search terms]", value="Searches for gif of given terms", inline=False)
+    embed.add_field(name="!player [name]", value="Gets general information of a player", inline=False)
+    embed.add_field(name="!next", value="Get day and time of next Rams game", inline=False)
+    embed.add_field(name="!schedule (YYYYMMDD)", value="Gets list of games for given date. If no date given, bot will get games of current day", inline=False)
+    embed.add_field(name="!addme", value="Add yourself to list of users to be PM'd 30 minutes before the next Rams game starts", inline=False)
+    embed.add_field(name="!removeme", value="Remove yourself from reminder list", inline=False)
+
+    await ctx.send(embed=embed)
 
 #Gets gif and says URL thereby posting the gif
 @bot.command()
@@ -184,14 +194,14 @@ async def schedule(ctx, message: str = None):
         for component in sched.walk('VEVENT'):
             if component['DTSTART'].dt.date() == user_date:
                 print('{}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%d/%m/%Y %I:%M")))
-                gameday_str += '{}: {} CST\n'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%d/%m/%Y %I:%M"))
+                gameday_str += '**{}**: {} CST\n'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y - %I:%M"))
             elif component['DTSTART'].dt.date() > user_date:
                 break
 
         if not gameday_str:
             await ctx.send("No games today")
         else:
-            await ctx.send("```{}```".format(gameday_str))
+            await ctx.send(gameday_str)
         
     except:
         await ctx.send("An error happened. Please contact @wh33lybrdy")
@@ -212,13 +222,28 @@ async def next(ctx):
             print('Found: {}'.format(component['DTSTART'].dt.date()))
             if component['DTSTART'].dt.date() >= today:
                 print('Next game is: {}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%d/%m/%Y %I:%M")))
-                await ctx.send('{}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%d/%m/%Y %I:%M")))
+                await ctx.send('{}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y - %I:%M")))
                 break
     except:
         await ctx.send('An error happened. Please contact @wh33lybrdy')
-    
-        #if component.name == "VEVENT":
-            #print(component['DTSTART'].dt)
+
+
+@bot.command()
+async def test(ctx):
+    try:
+        url = 'https://api.mysportsfeeds.com/v2.0/pull/nfl/players.json'
+        params = { "player" : "Tom-Brady" }
+        headers = { "Authorization": "Basic " + base64.b64encode('{}:{}'.format(API_Key, 'MYSPORTSFEEDS').encode('utf-8')).decode('ascii')}
+
+        print('Making request')
+        async with aiohttp.ClientSession(headers=headers) as session:
+            async with session.get(url, params=params) as r:
+                print(r.status)
+                #print(await r.json())
+                print(await r.text())
+        
+    except:
+        print('Something wrong')
 
 
 #Runs the bot 

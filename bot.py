@@ -9,9 +9,8 @@ import asyncio
 import aiohttp
 import pytz
 import datetime
-from datetime import date
 from icalendar import Calendar, Event
-from datetime import datetime
+from datetime import date, timedelta
 
 from config import TOKEN, giphyKey, API_Key
 
@@ -33,7 +32,6 @@ from utils import isPlayer, nameCheck
 description = 'Bot for Los Angeles Rams discord server'
 
 #Sets up bot
-#print("Starting up bot")
 bot = commands.Bot(command_prefix = '!', description = description, pm_help=True)
 
 #Remove the help command
@@ -112,7 +110,6 @@ async def player(ctx, *, message: str):
             botString = "```Name: {}\nNumber: {}\nTeam: {}\nPosition: {}\nStatus: {}\nYears Pro: {}\nCollege: {}\nHeight (in.): {}\nWeight: {}\nBorn: {}\n```NFL Profile: {}".format(player['fullName'], player['uniformNumber'], player['team'], player['position'], player['status'], player['yearsPro'], player['college'], player['height'], player['weight'], player['birthDate'], player['profileUrl'])
             await ctx.send(botString)
         else:
-            print("In error")
             await ctx.send("No player found")
     except:
         await ctx.send("An error happened please try again")
@@ -125,7 +122,6 @@ async def addme(ctx, member: discord.Member = None):
 
     try:
         with open('userList.json') as userFile:
-            print('opened file')
             data = json.load(userFile)
             
             if user in data:
@@ -179,7 +175,7 @@ async def schedule(ctx, message: str = None):
             #await ctx.send('We got the message: {}'.format(message))
             #user_date = datetime.strptime(message, '%Y%m%d').strftime('%m/%d/%Y')
             today = date.today()
-            user_date = datetime.strptime(message, '%Y%m%d').date()
+            user_date = datetime.datetime.strptime(message, '%Y%m%d').date()
             #user_date = user_date.date()
             print(user_date)
         else:
@@ -205,10 +201,6 @@ async def schedule(ctx, message: str = None):
         
     except:
         await ctx.send("An error happened. Please contact @wh33lybrdy")
-        
-    
-    
-        
 
 @bot.command()
 async def next(ctx):
@@ -227,7 +219,6 @@ async def next(ctx):
     except:
         await ctx.send('An error happened. Please contact @wh33lybrdy')
 
-
 @bot.command()
 async def test(ctx):
     try:
@@ -245,6 +236,57 @@ async def test(ctx):
     except:
         print('Something wrong')
 
+@bot.command()
+async def test2(ctx):
+        today = datetime.datetime.now(tz=pytz.UTC)
+        print(today)
+        g = open('rams.ics', 'rb')
+        sched = Calendar.from_ical(g.read())
+        for component in sched.walk('VEVENT'):
+            print('Found: {}'.format(component['DTSTART'].dt))
+            if component['DTSTART'].dt >= today:
+                print('Next game is: {}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y %I:%M")))
+                game = component['DTSTART'].dt
 
+                till_game = game - today
+                print(till_game.total_seconds())
+                break
+    
+
+async def gameCheck():
+    
+    print("Running loop")
+    
+    nextGame = True
+    await asyncio.sleep(10)
+    #counter = 0
+    while True:
+        today = datetime.datetime.now(tz=pytz.UTC)
+        print(today)
+        while nextGame == True:
+            g = open('rams.ics', 'rb')
+            sched = Calendar.from_ical(g.read())
+            for component in sched.walk('VEVENT'):
+                print('Found: {}'.format(component['DTSTART'].dt))
+            
+                if component['DTSTART'].dt >= today:
+                    print('Next game is: {}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y %I:%M")))
+                    game = component['DTSTART'].dt
+                    nextGame = False
+                    break
+
+
+        till_game = game - today
+        print(till_game.total_seconds())
+
+        if till_game.total_seconds() <= 867800:
+            print("TIME TO NOTIFY")
+        await asyncio.sleep(10)
+                
+    
+    
+
+bot.loop.create_task(gameCheck())
+        
 #Runs the bot 
 bot.run(TOKEN) 

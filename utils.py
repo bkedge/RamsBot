@@ -14,3 +14,4 @@ def nameCheck(nameInput):
     number_of_names = len(nameInput)
     #print(number_of_names)
     return number_of_names
+

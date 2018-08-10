@@ -220,21 +220,56 @@ async def next(ctx):
         await ctx.send('An error happened. Please contact @wh33lybrdy')
 
 @bot.command()
-async def test(ctx):
-    try:
-        url = 'https://api.mysportsfeeds.com/v2.0/pull/nfl/players.json'
-        params = { "player" : "Tom-Brady" }
-        headers = { "Authorization": "Basic " + base64.b64encode('{}:{}'.format(API_Key, 'MYSPORTSFEEDS').encode('utf-8')).decode('ascii')}
+async def test(ctx, *, message: str):
+    
+    url = 'https://api.mysportsfeeds.com/v2.0/pull/nfl/players.json'
+    headers = { "Authorization": "Basic " + base64.b64encode('{}:{}'.format(API_Key, 'MYSPORTSFEEDS').encode('utf-8')).decode('ascii')}
+    params = { "player" : "key" }
 
-        print('Making request')
-        async with aiohttp.ClientSession(headers=headers) as session:
-            async with session.get(url, params=params) as r:
-                print(r.status)
-                #print(await r.json())
-                print(await r.text())
+    try:
+        name = message.split(" ")
+        if nameCheck(name) == 1:
+            print("Last name")
+            name = "{}".format(name[0])
+            params['player'] = name
+            print(params['player'])
+            print('Making request')
+            async with aiohttp.ClientSession(headers=headers) as session:
+                async with session.get(url, params=params) as r:
+                    print(r.status)
+                    #print(await r.json())
+                    print(await r.text())
+            
+        elif nameCheck(name) == 2:
+            print("Full name")
+            name = "{}-{}".format(name[0], name[1])
+            print(name)
+            params['player'] = name
+            print('Making request')
+            async with aiohttp.ClientSession(headers=headers) as session:
+                async with session.get(url, params=params) as r:
+                    print(r.status)
+
+                    #print(await r.json())
+                    #print(await r.text())
+                    data = await r.text()
+            
+            pName = json.loads(data)
+            #botString = "```Name: {} {}\nNumber: {}\nTeam: {}\nPosition: {}\nStatus: {}\nYears Pro: {}\nCollege: {}\nHeight (in.): {}\nWeight: {}\nBorn: {}\n```NFL Profile: {}".format(pName['players'][0]['player']['firstName'], pName['players'][0]['player']['lastName'], pName['players'][0]['player']['jerseyNumber'], pName['references']['teamReferences']['name'])
+
+            botString = "```Name: {} {}\nNumber: {}\nTeam: {}\nPosition: {}\nHeight: {}\nWeight: {}\nBorn: {}\nAge: {}\nHome Town: {}\n```{}".format(pName['players'][0]['player']['firstName'], pName['players'][0]['player']['lastName'], pName['players'][0]['player']['jerseyNumber'], pName['references']['teamReferences'][0]['name'], pName['players'][0]['player']['position'], pName['players'][0]['player']['height'], pName['players'][0]['player']['weight'], pName['players'][0]['player']['birthDate'], pName['players'][0]['player']['age'], pName['players'][0]['player']['birthCity'], pName['players'][0]['player']['officialImageSrc'])
+            print(botString)
+            await ctx.send(botString)
+            #print(pName['players'][0]['player']['firstName'])
+    except Exception as ex:
+        print("Something went wrong")
+        print(ex)
         
-    except:
-        print('Something wrong')
+    
+
+        
+        
+    
 
 @bot.command()
 async def test2(ctx):
@@ -286,7 +321,7 @@ async def gameCheck():
     
     
 
-bot.loop.create_task(gameCheck())
+#bot.loop.create_task(gameCheck())
         
 #Runs the bot 
 bot.run(TOKEN) 

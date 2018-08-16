@@ -187,7 +187,7 @@ async def schedule(ctx, message: str = None):
     try:
         if message:
             #await ctx.send('We got the message: {}'.format(message))
-            #user_date = datetime.strptime(message, '%Y%m%d').strftime('%m/%d/%Y')
+            #user_date = datetime.strptime(message, '%Y%m%d').strftime('%m/%d/%Y'
             today = date.today()
             user_date = datetime.datetime.strptime(message, '%Y%m%d').date()
             #user_date = user_date.date()
@@ -221,64 +221,63 @@ async def next(ctx):
     #Calendar stuff
     try:
         today = date.today()
-        print(today)
+        #print(today)
         g = open('rams.ics', 'rb')
         sched = Calendar.from_ical(g.read())
         for component in sched.walk('VEVENT'):
             print('Found: {}'.format(component['DTSTART'].dt.date()))
             if component['DTSTART'].dt.date() >= today:
-                print('Next game is: {}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%d/%m/%Y %I:%M")))
+                #print('Next game is: {}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%d/%m/%Y %I:%M")))
                 await ctx.send('{}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y - %I:%M")))
                 break
     except:
         await ctx.send('An error happened. Please contact @wh33lybrdy')
-
-@bot.command()
-async def test2(ctx):
-        today = datetime.datetime.now(tz=pytz.UTC)
-        print(today)
-        g = open('rams.ics', 'rb')
-        sched = Calendar.from_ical(g.read())
-        for component in sched.walk('VEVENT'):
-            print('Found: {}'.format(component['DTSTART'].dt))
-            if component['DTSTART'].dt >= today:
-                print('Next game is: {}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y %I:%M")))
-                game = component['DTSTART'].dt
-
-                till_game = game - today
-                print(till_game.total_seconds())
-                break
     
 
 async def gameCheck():
     
-    print("Running loop")
+    
     
     nextGame = True
     await asyncio.sleep(10)
-    #counter = 0
+    print("Running loop")
+    #Always runs
     while True:
+        #Get today
         today = datetime.datetime.now(tz=pytz.UTC)
-        print(today)
+        #print(today)
+        #Get next game
         while nextGame == True:
             g = open('rams.ics', 'rb')
             sched = Calendar.from_ical(g.read())
             for component in sched.walk('VEVENT'):
-                print('Found: {}'.format(component['DTSTART'].dt))
-            
+                #print('Found: {}'.format(component['DTSTART'].dt))
+
+                #Find closest game after today
                 if component['DTSTART'].dt >= today:
                     print('Next game is: {}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y %I:%M")))
+                    gameString = '{}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y %I:%M"))
                     game = component['DTSTART'].dt
+                    #Set flag to false
                     nextGame = False
                     break
 
-
+        #Get time till next game
         till_game = game - today
-        print(till_game.total_seconds())
+        #print(till_game.total_seconds())
 
-        if till_game.total_seconds() <= 867800:
+        if till_game.total_seconds() <= 1800:
             print("TIME TO NOTIFY")
-        await asyncio.sleep(10)
+            with open('userList.json') as userFile:
+                data = json.load(userFile)
+
+            for user in data:
+                await bot.get_user(user).send("{} is starting in 30 minutes".format(gameString))
+            
+            await asyncio.sleep(43200)
+            nextGame = True
+        
+        await asyncio.sleep(30)
                 
     
     

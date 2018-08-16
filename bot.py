@@ -47,7 +47,7 @@ async def on_ready():
     print('Logged in')
     print(bot.user.name)
     print(bot.user.id)
-    #await bot.change_presence(game=discord.Game(name='bradykedge.com', type=0))
+    await bot.change_presence(activity=discord.Game(name="bradykedge.com"))
     print('--------')
 
 #Help Command
@@ -55,8 +55,19 @@ bot.remove_command('help')
 @bot.command()
 async def help(ctx, member: discord.Member = None):
     user = ctx.author.id
-    helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!gif [search terms]:** Searches for gif of given terms\n**!player [name]:** Gets general information of a player\n**!next:** Get day and time of next Rams game\n**!schedule (YYYYMMDD):** Gets list of games for given date. If no date given, bot will get games of current day\n**!addme:** Add yourself to list of users to be PM'd 30 minutes before the next Rams game starts\n**!removeme:** Remove yourself from reminder list"
-    await bot.get_user(user).send(helpString)
+    #helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!gif [search terms]:** Searches for gif of given terms\n**!player [name]:** Gets general information of a player\n**!next:** Get day and time of next Rams game\n**!schedule (YYYYMMDD):** Gets list of games for given date. If no date given, bot will get games of current day\n**!addme:** Add yourself to list of users to be PM'd 30 minutes before the next Rams game starts\n**!removeme:** Remove yourself from reminder list"
+    
+    embed = discord.Embed(title="RamsBot", description="Bot for the /r/LosAngelesRams discord server. List of commands [required] (optional) are:", color=0xeee657)
+
+    embed.add_field(name="!help", value="PM's a list of commands for the bot", inline=False)
+    embed.add_field(name="!gif [search terms]", value="Searches for gif of given terms", inline=False)
+    embed.add_field(name="!player [name]", value="Gets general information of a player", inline=False)
+    embed.add_field(name="!next", value="Get day and time of next Rams game", inline=False)
+    embed.add_field(name="!schedule (YYYYMMDD)", value="Gets list of games for given date. If no date given, bot will get games of current day", inline=False)
+    embed.add_field(name="!addme", value="Add yourself to list of users to be PM'd 30 minutes before the next Rams game starts", inline=False)
+    embed.add_field(name="!removeme", value="Remove yourself from reminder list", inline=False)
+
+    await bot.get_user(user).send(embed=embed)
 
 #Provides info for the bot
 @bot.command()
@@ -105,7 +116,7 @@ async def player(ctx, *, message: str):
                     data = await r.text()
             
             pName = json.loads(data)
-            botString = "```Name: {} {}\nNumber: {}\nTeam: {}\nPosition: {}\nHeight: {}\nWeight: {}\nBorn: {}\nAge: {}\nHome Town: {}\n```{}".format(pName['players'][0]['player']['firstName'], pName['players'][0]['player']['lastName'], pName['players'][0]['player']['jerseyNumber'], pName['references']['teamReferences'][0]['name'], pName['players'][0]['player']['position'], pName['players'][0]['player']['height'], pName['players'][0]['player']['weight'], pName['players'][0]['player']['birthDate'], pName['players'][0]['player']['age'], pName['players'][0]['player']['birthCity'], pName['players'][0]['player']['officialImageSrc'])
+            botString = "```Name: {} {}\nNumber: {}\nTeam: {}\nPosition: {}\nHeight: {}\nWeight: {}\nBorn: {}\nAge: {}\nHome Town: {}\n```{}".format(pName['players'][0]['player']['firstName'], pName['players'][0]['player']['lastName'], pName['players'][0]['player']['jerseyNumber'], pName['references']['teamReferences'][0]['name'], pName['players'][0]['player']['primaryPosition'], pName['players'][0]['player']['height'], pName['players'][0]['player']['weight'], pName['players'][0]['player']['birthDate'], pName['players'][0]['player']['age'], pName['players'][0]['player']['birthCity'], pName['players'][0]['player']['officialImageSrc'])
             #print(botString)
             await ctx.send(botString)
             
@@ -121,7 +132,7 @@ async def player(ctx, *, message: str):
                     data = await r.text()
             
             pName = json.loads(data)
-            botString = "```Name: {} {}\nNumber: {}\nTeam: {}\nPosition: {}\nHeight: {}\nWeight: {}\nBorn: {}\nAge: {}\nHome Town: {}\n```{}".format(pName['players'][0]['player']['firstName'], pName['players'][0]['player']['lastName'], pName['players'][0]['player']['jerseyNumber'], pName['references']['teamReferences'][0]['name'], pName['players'][0]['player']['position'], pName['players'][0]['player']['height'], pName['players'][0]['player']['weight'], pName['players'][0]['player']['birthDate'], pName['players'][0]['player']['age'], pName['players'][0]['player']['birthCity'], pName['players'][0]['player']['officialImageSrc'])
+            botString = "```Name: {} {}\nNumber: {}\nTeam: {}\nPosition: {}\nHeight: {}\nWeight: {}\nBorn: {}\nAge: {}\nHome Town: {}\n```{}".format(pName['players'][0]['player']['firstName'], pName['players'][0]['player']['lastName'], pName['players'][0]['player']['jerseyNumber'], pName['references']['teamReferences'][0]['name'], pName['players'][0]['player']['primaryPosition'], pName['players'][0]['player']['height'], pName['players'][0]['player']['weight'], pName['players'][0]['player']['birthDate'], pName['players'][0]['player']['age'], pName['players'][0]['player']['birthCity'], pName['players'][0]['player']['officialImageSrc'])
             #print(botString)
             await ctx.send(botString)
     except Exception as ex:
@@ -255,8 +266,8 @@ async def gameCheck():
 
                 #Find closest game after today
                 if component['DTSTART'].dt >= today:
-                    print('Next game is: {}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y %I:%M")))
-                    gameString = '{}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y %I:%M"))
+                    print('Next game is: {}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y - %I:%M")))
+                    gameString = '{}: {} CST'.format(component['SUMMARY'], component['DTSTART'].dt.strftime("%m/%d/%Y - %I:%M"))
                     game = component['DTSTART'].dt
                     #Set flag to false
                     nextGame = False
@@ -266,7 +277,8 @@ async def gameCheck():
         till_game = game - today
         #print(till_game.total_seconds())
 
-        if till_game.total_seconds() <= 1800:
+        #30 minutes = 1800 seconds 
+        if till_game.total_seconds() <= 1800:  
             print("TIME TO NOTIFY")
             with open('userList.json') as userFile:
                 data = json.load(userFile)

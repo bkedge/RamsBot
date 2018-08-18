@@ -57,9 +57,10 @@ async def help(ctx, member: discord.Member = None):
     user = ctx.author.id
     #helpString = "Below is a list of commands for the bot. [required input] (optional input). Contact wh33lybrdy with questions or concerns.\n--------------\n**!help:** Get list of commands\n**!gif [search terms]:** Searches for gif of given terms\n**!player [name]:** Gets general information of a player\n**!next:** Get day and time of next Rams game\n**!schedule (YYYYMMDD):** Gets list of games for given date. If no date given, bot will get games of current day\n**!addme:** Add yourself to list of users to be PM'd 30 minutes before the next Rams game starts\n**!removeme:** Remove yourself from reminder list"
     
-    embed = discord.Embed(title="RamsBot", description="Bot for the /r/LosAngelesRams discord server. List of commands [required] (optional) are:", color=0xeee657)
+    embed = discord.Embed(title="RamsBot", description="Bot for the /r/LosAngelesRams discord server created by wh33lybrdy. List of commands [required input] (optional input) are:", color=0xeee657)
 
     embed.add_field(name="!help", value="PM's a list of commands for the bot", inline=False)
+    embed.add_field(name="!info", value="Get info for the bot", inline=False)
     embed.add_field(name="!gif [search terms]", value="Searches for gif of given terms", inline=False)
     embed.add_field(name="!player [name]", value="Gets general information of a player", inline=False)
     embed.add_field(name="!next", value="Get day and time of next Rams game", inline=False)
@@ -72,9 +73,10 @@ async def help(ctx, member: discord.Member = None):
 #Provides info for the bot
 @bot.command()
 async def info(ctx):
-    embed = discord.Embed(title="RamsBot", description="Bot for the /r/LosAngelesRams discord server. List of commands [required] (optional) are:", color=0xeee657)
+    embed = discord.Embed(title="RamsBot", description="Bot for the /r/LosAngelesRams discord server created by wh33lybrdy. List of commands [required input] (optional input) are:", color=0xeee657)
 
     embed.add_field(name="!help", value="PM's a list of commands for the bot", inline=False)
+    embed.add_field(name="!info", value="Get info for the bot", inline=False)
     embed.add_field(name="!gif [search terms]", value="Searches for gif of given terms", inline=False)
     embed.add_field(name="!player [name]", value="Gets general information of a player", inline=False)
     embed.add_field(name="!next", value="Get day and time of next Rams game", inline=False)

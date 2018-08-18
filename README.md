@@ -4,6 +4,8 @@ Discord bot for /r/LosAngelesRams discord group. Retrieves NFL Player statistics
 # Commands
 ### !help 
 Get list of commands
+### !info
+Displays a markdown message of the bot's commands and features
 ### !gif [search terms] 
 Searches for gif of given terms
 ### !player [name]
